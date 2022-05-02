@@ -1,0 +1,2448 @@
+digraph CFG {
+subgraph cluster0 {
+label = "public void coastwaysHorntip() throws Throwable  <2...34>";
+0.0 [style = filled, label = "public void coastwaysHorntip() throws Throwable  <2...34>", fillcolor = aquamarine, shape = ellipse];
+0.1 [style = filled, label = "BufferedReader controvertist_concent = null; <3>", fillcolor = white, shape = ellipse];
+0.2 [style = filled, label = "InputStreamReader brassidic_thyroidal = null; <4>", fillcolor = white, shape = ellipse];
+0.3 [style = filled, label = "brassidic_thyroidal = new InputStreamReader(System.in,\"UTF-8\"); <6>", fillcolor = white, shape = ellipse];
+0.4 [style = filled, label = "controvertist_concent = new BufferedReader(brassidic_thyroidal); <7>", fillcolor = white, shape = ellipse];
+0.5 [style = filled, label = "double evenly_insimplicity = 0; <8>", fillcolor = white, shape = ellipse];
+0.6 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <9>", fillcolor = white, shape = ellipse];
+0.7 [style = filled, label = "evenly_insimplicity = Double.parseDouble(controvertist_concent.readLine()); <11>", fillcolor = white, shape = ellipse];
+0.8 [style = filled, label = "NumberFormatException exceptionNumberFormat <12>", fillcolor = white, shape = diamond];
+0.9 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <13>", fillcolor = white, shape = ellipse];
+0.10 [style = filled, label = "IO.writeLine(\"\" + (float)evenly_insimplicity); <15>", fillcolor = white, shape = ellipse];
+0.11 [style = filled, label = "IOException exceptIO <16>", fillcolor = white, shape = diamond];
+0.12 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <17>", fillcolor = white, shape = ellipse];
+0.13 [style = filled, label = "{
+try {
+if (controvertist_concent != null) {
+controvertist_concent.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (brassidic_thyroidal != null) {
+brassidic_thyroidal.close();
+}
+}catch (IOException exceptIO) 
+} <18...33>", fillcolor = deeppink, shape = ellipse];
+0.0 -> 0.1 [style = solid, label=""];
+0.1 -> 0.2 [style = solid, label=""];
+0.2 -> 0.3 [style = solid, label=""];
+0.3 -> 0.4 [style = solid, label=""];
+0.4 -> 0.5 [style = solid, label=""];
+0.5 -> 0.6 [style = solid, label=""];
+0.6 -> 0.7 [style = solid, label=""];
+0.7 -> 0.8 [style = solid, label=""];
+0.7 -> 0.10 [style = solid, label=""];
+0.8 -> 0.9 [style = solid, label="true"];
+0.9 -> 0.10 [style = solid, label=""];
+0.10 -> 0.11 [style = solid, label=""];
+0.10 -> 0.13 [style = solid, label=""];
+0.11 -> 0.12 [style = solid, label="true"];
+0.12 -> 0.13 [style = solid, label=""];
+}
+subgraph cluster1 {
+label = "public void adjustMovement() throws Throwable  <2...36>";
+1.0 [style = filled, label = "public void adjustMovement() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+1.1 [style = filled, label = "true <3>", fillcolor = white, shape = diamond];
+1.2 [style = filled, label = "BufferedReader eurypelma_toparchical = null; <4>", fillcolor = white, shape = ellipse];
+1.3 [style = filled, label = "InputStreamReader noncanvassing_duftery = null; <5>", fillcolor = white, shape = ellipse];
+1.4 [style = filled, label = "noncanvassing_duftery = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+1.5 [style = filled, label = "eurypelma_toparchical = new BufferedReader(noncanvassing_duftery); <8>", fillcolor = white, shape = ellipse];
+1.6 [style = filled, label = "double broombush_supermarginal = 0; <9>", fillcolor = white, shape = ellipse];
+1.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+1.8 [style = filled, label = "broombush_supermarginal = Double.parseDouble(eurypelma_toparchical.readLine()); <12>", fillcolor = white, shape = ellipse];
+1.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+1.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+1.11 [style = filled, label = "IO.writeLine(\"\" + (float)broombush_supermarginal); <16>", fillcolor = white, shape = ellipse];
+1.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+1.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+1.14 [style = filled, label = "{
+try {
+if (eurypelma_toparchical != null) {
+eurypelma_toparchical.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (noncanvassing_duftery != null) {
+noncanvassing_duftery.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+1.0 -> 1.1 [style = solid, label=""];
+1.1 -> 1.2 [style = solid, label="true"];
+1.2 -> 1.3 [style = solid, label=""];
+1.3 -> 1.4 [style = solid, label=""];
+1.4 -> 1.5 [style = solid, label=""];
+1.5 -> 1.6 [style = solid, label=""];
+1.6 -> 1.7 [style = solid, label=""];
+1.7 -> 1.8 [style = solid, label=""];
+1.8 -> 1.9 [style = solid, label=""];
+1.8 -> 1.11 [style = solid, label=""];
+1.9 -> 1.10 [style = solid, label="true"];
+1.10 -> 1.11 [style = solid, label=""];
+1.11 -> 1.12 [style = solid, label=""];
+1.11 -> 1.14 [style = solid, label=""];
+1.12 -> 1.13 [style = solid, label="true"];
+1.13 -> 1.14 [style = solid, label=""];
+}
+subgraph cluster2 {
+label = "public void dicasticMecodont() throws Throwable  <2...36>";
+2.0 [style = filled, label = "public void dicasticMecodont() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+2.1 [style = filled, label = "5 == 5 <3>", fillcolor = white, shape = diamond];
+2.2 [style = filled, label = "BufferedReader pinkenIntercosmically = null; <4>", fillcolor = white, shape = ellipse];
+2.3 [style = filled, label = "InputStreamReader philotadpoleIndocibility = null; <5>", fillcolor = white, shape = ellipse];
+2.4 [style = filled, label = "philotadpoleIndocibility = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+2.5 [style = filled, label = "pinkenIntercosmically = new BufferedReader(philotadpoleIndocibility); <8>", fillcolor = white, shape = ellipse];
+2.6 [style = filled, label = "double theirselves_unreclining = 0; <9>", fillcolor = white, shape = ellipse];
+2.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+2.8 [style = filled, label = "theirselves_unreclining = Double.parseDouble(pinkenIntercosmically.readLine()); <12>", fillcolor = white, shape = ellipse];
+2.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+2.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+2.11 [style = filled, label = "IO.writeLine(\"\" + (float)theirselves_unreclining); <16>", fillcolor = white, shape = ellipse];
+2.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+2.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+2.14 [style = filled, label = "{
+try {
+if (pinkenIntercosmically != null) {
+pinkenIntercosmically.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (philotadpoleIndocibility != null) {
+philotadpoleIndocibility.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+2.0 -> 2.1 [style = solid, label=""];
+2.1 -> 2.2 [style = solid, label="true"];
+2.2 -> 2.3 [style = solid, label=""];
+2.3 -> 2.4 [style = solid, label=""];
+2.4 -> 2.5 [style = solid, label=""];
+2.5 -> 2.6 [style = solid, label=""];
+2.6 -> 2.7 [style = solid, label=""];
+2.7 -> 2.8 [style = solid, label=""];
+2.8 -> 2.9 [style = solid, label=""];
+2.8 -> 2.11 [style = solid, label=""];
+2.9 -> 2.10 [style = solid, label="true"];
+2.10 -> 2.11 [style = solid, label=""];
+2.11 -> 2.12 [style = solid, label=""];
+2.11 -> 2.14 [style = solid, label=""];
+2.12 -> 2.13 [style = solid, label="true"];
+2.13 -> 2.14 [style = solid, label=""];
+}
+subgraph cluster3 {
+label = "public void deionizePoy() throws Throwable  <2...36>";
+3.0 [style = filled, label = "public void deionizePoy() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+3.1 [style = filled, label = "PRIVATE_STATIC_FINAL_TRUE <3>", fillcolor = white, shape = diamond];
+3.2 [style = filled, label = "BufferedReader proactor_embuskin = null; <4>", fillcolor = white, shape = ellipse];
+3.3 [style = filled, label = "InputStreamReader pleurococcaceaeWaterworker = null; <5>", fillcolor = white, shape = ellipse];
+3.4 [style = filled, label = "pleurococcaceaeWaterworker = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+3.5 [style = filled, label = "proactor_embuskin = new BufferedReader(pleurococcaceaeWaterworker); <8>", fillcolor = white, shape = ellipse];
+3.6 [style = filled, label = "double enteropneusta_gibing = 0; <9>", fillcolor = white, shape = ellipse];
+3.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+3.8 [style = filled, label = "enteropneusta_gibing = Double.parseDouble(proactor_embuskin.readLine()); <12>", fillcolor = white, shape = ellipse];
+3.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+3.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+3.11 [style = filled, label = "IO.writeLine(\"\" + (float)enteropneusta_gibing); <16>", fillcolor = white, shape = ellipse];
+3.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+3.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+3.14 [style = filled, label = "{
+try {
+if (proactor_embuskin != null) {
+proactor_embuskin.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (pleurococcaceaeWaterworker != null) {
+pleurococcaceaeWaterworker.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+3.0 -> 3.1 [style = solid, label=""];
+3.1 -> 3.2 [style = solid, label="true"];
+3.2 -> 3.3 [style = solid, label=""];
+3.3 -> 3.4 [style = solid, label=""];
+3.4 -> 3.5 [style = solid, label=""];
+3.5 -> 3.6 [style = solid, label=""];
+3.6 -> 3.7 [style = solid, label=""];
+3.7 -> 3.8 [style = solid, label=""];
+3.8 -> 3.9 [style = solid, label=""];
+3.8 -> 3.11 [style = solid, label=""];
+3.9 -> 3.10 [style = solid, label="true"];
+3.10 -> 3.11 [style = solid, label=""];
+3.11 -> 3.12 [style = solid, label=""];
+3.11 -> 3.14 [style = solid, label=""];
+3.12 -> 3.13 [style = solid, label="true"];
+3.13 -> 3.14 [style = solid, label=""];
+}
+subgraph cluster4 {
+label = "public void xenopodidaeCerialia() throws Throwable  <2...36>";
+4.0 [style = filled, label = "public void xenopodidaeCerialia() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+4.1 [style = filled, label = "privateTrue <3>", fillcolor = white, shape = diamond];
+4.2 [style = filled, label = "BufferedReader brandrethShepherddom = null; <4>", fillcolor = white, shape = ellipse];
+4.3 [style = filled, label = "InputStreamReader justifyingPunctuality = null; <5>", fillcolor = white, shape = ellipse];
+4.4 [style = filled, label = "justifyingPunctuality = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+4.5 [style = filled, label = "brandrethShepherddom = new BufferedReader(justifyingPunctuality); <8>", fillcolor = white, shape = ellipse];
+4.6 [style = filled, label = "double luteinize_brogueful = 0; <9>", fillcolor = white, shape = ellipse];
+4.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+4.8 [style = filled, label = "luteinize_brogueful = Double.parseDouble(brandrethShepherddom.readLine()); <12>", fillcolor = white, shape = ellipse];
+4.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+4.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+4.11 [style = filled, label = "IO.writeLine(\"\" + (float)luteinize_brogueful); <16>", fillcolor = white, shape = ellipse];
+4.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+4.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+4.14 [style = filled, label = "{
+try {
+if (brandrethShepherddom != null) {
+brandrethShepherddom.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (justifyingPunctuality != null) {
+justifyingPunctuality.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+4.0 -> 4.1 [style = solid, label=""];
+4.1 -> 4.2 [style = solid, label="true"];
+4.2 -> 4.3 [style = solid, label=""];
+4.3 -> 4.4 [style = solid, label=""];
+4.4 -> 4.5 [style = solid, label=""];
+4.5 -> 4.6 [style = solid, label=""];
+4.6 -> 4.7 [style = solid, label=""];
+4.7 -> 4.8 [style = solid, label=""];
+4.8 -> 4.9 [style = solid, label=""];
+4.8 -> 4.11 [style = solid, label=""];
+4.9 -> 4.10 [style = solid, label="true"];
+4.10 -> 4.11 [style = solid, label=""];
+4.11 -> 4.12 [style = solid, label=""];
+4.11 -> 4.14 [style = solid, label=""];
+4.12 -> 4.13 [style = solid, label="true"];
+4.13 -> 4.14 [style = solid, label=""];
+}
+subgraph cluster5 {
+label = "public void perirectitisDaric() throws Throwable  <2...36>";
+5.0 [style = filled, label = "public void perirectitisDaric() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+5.1 [style = filled, label = "PRIVATE_STATIC_FINAL_FIVE == 5 <3>", fillcolor = white, shape = diamond];
+5.2 [style = filled, label = "BufferedReader b = null; <4>", fillcolor = white, shape = ellipse];
+5.3 [style = filled, label = "InputStreamReader charadriiform_rubberstone = null; <5>", fillcolor = white, shape = ellipse];
+5.4 [style = filled, label = "charadriiform_rubberstone = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+5.5 [style = filled, label = "b = new BufferedReader(charadriiform_rubberstone); <8>", fillcolor = white, shape = ellipse];
+5.6 [style = filled, label = "double testimonium_pioury = 0; <9>", fillcolor = white, shape = ellipse];
+5.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+5.8 [style = filled, label = "testimonium_pioury = Double.parseDouble(b.readLine()); <12>", fillcolor = white, shape = ellipse];
+5.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+5.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+5.11 [style = filled, label = "IO.writeLine(\"\" + (float)testimonium_pioury); <16>", fillcolor = white, shape = ellipse];
+5.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+5.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+5.14 [style = filled, label = "{
+try {
+if (b != null) {
+b.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (charadriiform_rubberstone != null) {
+charadriiform_rubberstone.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+5.0 -> 5.1 [style = solid, label=""];
+5.1 -> 5.2 [style = solid, label="true"];
+5.2 -> 5.3 [style = solid, label=""];
+5.3 -> 5.4 [style = solid, label=""];
+5.4 -> 5.5 [style = solid, label=""];
+5.5 -> 5.6 [style = solid, label=""];
+5.6 -> 5.7 [style = solid, label=""];
+5.7 -> 5.8 [style = solid, label=""];
+5.8 -> 5.9 [style = solid, label=""];
+5.8 -> 5.11 [style = solid, label=""];
+5.9 -> 5.10 [style = solid, label="true"];
+5.10 -> 5.11 [style = solid, label=""];
+5.11 -> 5.12 [style = solid, label=""];
+5.11 -> 5.14 [style = solid, label=""];
+5.12 -> 5.13 [style = solid, label="true"];
+5.13 -> 5.14 [style = solid, label=""];
+}
+subgraph cluster6 {
+label = "public void convertToBlockCount() throws Throwable  <2...36>";
+6.0 [style = filled, label = "public void convertToBlockCount() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+6.1 [style = filled, label = "privateFive == 5 <3>", fillcolor = white, shape = diamond];
+6.2 [style = filled, label = "BufferedReader pradeep_unresourceful = null; <4>", fillcolor = white, shape = ellipse];
+6.3 [style = filled, label = "InputStreamReader hydrosphere_axised = null; <5>", fillcolor = white, shape = ellipse];
+6.4 [style = filled, label = "hydrosphere_axised = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+6.5 [style = filled, label = "pradeep_unresourceful = new BufferedReader(hydrosphere_axised); <8>", fillcolor = white, shape = ellipse];
+6.6 [style = filled, label = "double thoracostracous_boroughlet = 0; <9>", fillcolor = white, shape = ellipse];
+6.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+6.8 [style = filled, label = "thoracostracous_boroughlet = Double.parseDouble(pradeep_unresourceful.readLine()); <12>", fillcolor = white, shape = ellipse];
+6.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+6.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+6.11 [style = filled, label = "IO.writeLine(\"\" + (float)thoracostracous_boroughlet); <16>", fillcolor = white, shape = ellipse];
+6.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+6.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+6.14 [style = filled, label = "{
+try {
+if (pradeep_unresourceful != null) {
+pradeep_unresourceful.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (hydrosphere_axised != null) {
+hydrosphere_axised.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+6.0 -> 6.1 [style = solid, label=""];
+6.1 -> 6.2 [style = solid, label="true"];
+6.2 -> 6.3 [style = solid, label=""];
+6.3 -> 6.4 [style = solid, label=""];
+6.4 -> 6.5 [style = solid, label=""];
+6.5 -> 6.6 [style = solid, label=""];
+6.6 -> 6.7 [style = solid, label=""];
+6.7 -> 6.8 [style = solid, label=""];
+6.8 -> 6.9 [style = solid, label=""];
+6.8 -> 6.11 [style = solid, label=""];
+6.9 -> 6.10 [style = solid, label="true"];
+6.10 -> 6.11 [style = solid, label=""];
+6.11 -> 6.12 [style = solid, label=""];
+6.11 -> 6.14 [style = solid, label=""];
+6.12 -> 6.13 [style = solid, label="true"];
+6.13 -> 6.14 [style = solid, label=""];
+}
+subgraph cluster7 {
+label = "public void unmodishUneclectic() throws Throwable  <2...36>";
+7.0 [style = filled, label = "public void unmodishUneclectic() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+7.1 [style = filled, label = "privateReturnsTrue() <3>", fillcolor = white, shape = diamond];
+7.2 [style = filled, label = "BufferedReader headmark_nursingly = null; <4>", fillcolor = white, shape = ellipse];
+7.3 [style = filled, label = "InputStreamReader pneumatocele_venatorial = null; <5>", fillcolor = white, shape = ellipse];
+7.4 [style = filled, label = "pneumatocele_venatorial = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+7.5 [style = filled, label = "headmark_nursingly = new BufferedReader(pneumatocele_venatorial); <8>", fillcolor = white, shape = ellipse];
+7.6 [style = filled, label = "double sortably_orthologer = 0; <9>", fillcolor = white, shape = ellipse];
+7.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+7.8 [style = filled, label = "sortably_orthologer = Double.parseDouble(headmark_nursingly.readLine()); <12>", fillcolor = white, shape = ellipse];
+7.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+7.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+7.11 [style = filled, label = "IO.writeLine(\"\" + (float)sortably_orthologer); <16>", fillcolor = white, shape = ellipse];
+7.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+7.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+7.14 [style = filled, label = "{
+try {
+if (headmark_nursingly != null) {
+headmark_nursingly.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (pneumatocele_venatorial != null) {
+pneumatocele_venatorial.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+7.0 -> 7.1 [style = solid, label=""];
+7.1 -> 7.2 [style = solid, label="true"];
+7.2 -> 7.3 [style = solid, label=""];
+7.3 -> 7.4 [style = solid, label=""];
+7.4 -> 7.5 [style = solid, label=""];
+7.5 -> 7.6 [style = solid, label=""];
+7.6 -> 7.7 [style = solid, label=""];
+7.7 -> 7.8 [style = solid, label=""];
+7.8 -> 7.9 [style = solid, label=""];
+7.8 -> 7.11 [style = solid, label=""];
+7.9 -> 7.10 [style = solid, label="true"];
+7.10 -> 7.11 [style = solid, label=""];
+7.11 -> 7.12 [style = solid, label=""];
+7.11 -> 7.14 [style = solid, label=""];
+7.12 -> 7.13 [style = solid, label="true"];
+7.13 -> 7.14 [style = solid, label=""];
+}
+subgraph cluster8 {
+label = "public void guideShale() throws Throwable  <2...36>";
+8.0 [style = filled, label = "public void guideShale() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+8.1 [style = filled, label = "IO.STATIC_FINAL_TRUE <3>", fillcolor = white, shape = diamond];
+8.2 [style = filled, label = "BufferedReader errantry_prizeman = null; <4>", fillcolor = white, shape = ellipse];
+8.3 [style = filled, label = "InputStreamReader cordelia_revisal = null; <5>", fillcolor = white, shape = ellipse];
+8.4 [style = filled, label = "cordelia_revisal = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+8.5 [style = filled, label = "errantry_prizeman = new BufferedReader(cordelia_revisal); <8>", fillcolor = white, shape = ellipse];
+8.6 [style = filled, label = "double kinetoscope_ecthlipsis = 0; <9>", fillcolor = white, shape = ellipse];
+8.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+8.8 [style = filled, label = "kinetoscope_ecthlipsis = Double.parseDouble(errantry_prizeman.readLine()); <12>", fillcolor = white, shape = ellipse];
+8.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+8.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+8.11 [style = filled, label = "IO.writeLine(\"\" + (float)kinetoscope_ecthlipsis); <16>", fillcolor = white, shape = ellipse];
+8.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+8.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+8.14 [style = filled, label = "{
+try {
+if (errantry_prizeman != null) {
+errantry_prizeman.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (cordelia_revisal != null) {
+cordelia_revisal.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+8.0 -> 8.1 [style = solid, label=""];
+8.1 -> 8.2 [style = solid, label="true"];
+8.2 -> 8.3 [style = solid, label=""];
+8.3 -> 8.4 [style = solid, label=""];
+8.4 -> 8.5 [style = solid, label=""];
+8.5 -> 8.6 [style = solid, label=""];
+8.6 -> 8.7 [style = solid, label=""];
+8.7 -> 8.8 [style = solid, label=""];
+8.8 -> 8.9 [style = solid, label=""];
+8.8 -> 8.11 [style = solid, label=""];
+8.9 -> 8.10 [style = solid, label="true"];
+8.10 -> 8.11 [style = solid, label=""];
+8.11 -> 8.12 [style = solid, label=""];
+8.11 -> 8.14 [style = solid, label=""];
+8.12 -> 8.13 [style = solid, label="true"];
+8.13 -> 8.14 [style = solid, label=""];
+}
+subgraph cluster9 {
+label = "public void readIntLE() throws Throwable  <2...36>";
+9.0 [style = filled, label = "public void readIntLE() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+9.1 [style = filled, label = "IO.staticTrue <3>", fillcolor = white, shape = diamond];
+9.2 [style = filled, label = "BufferedReader res = null; <4>", fillcolor = white, shape = ellipse];
+9.3 [style = filled, label = "InputStreamReader supertension_meriquinoidal = null; <5>", fillcolor = white, shape = ellipse];
+9.4 [style = filled, label = "supertension_meriquinoidal = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+9.5 [style = filled, label = "res = new BufferedReader(supertension_meriquinoidal); <8>", fillcolor = white, shape = ellipse];
+9.6 [style = filled, label = "double imperviously_caddiced = 0; <9>", fillcolor = white, shape = ellipse];
+9.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+9.8 [style = filled, label = "imperviously_caddiced = Double.parseDouble(res.readLine()); <12>", fillcolor = white, shape = ellipse];
+9.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+9.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+9.11 [style = filled, label = "IO.writeLine(\"\" + (float)imperviously_caddiced); <16>", fillcolor = white, shape = ellipse];
+9.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+9.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+9.14 [style = filled, label = "{
+try {
+if (res != null) {
+res.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (supertension_meriquinoidal != null) {
+supertension_meriquinoidal.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+9.0 -> 9.1 [style = solid, label=""];
+9.1 -> 9.2 [style = solid, label="true"];
+9.2 -> 9.3 [style = solid, label=""];
+9.3 -> 9.4 [style = solid, label=""];
+9.4 -> 9.5 [style = solid, label=""];
+9.5 -> 9.6 [style = solid, label=""];
+9.6 -> 9.7 [style = solid, label=""];
+9.7 -> 9.8 [style = solid, label=""];
+9.8 -> 9.9 [style = solid, label=""];
+9.8 -> 9.11 [style = solid, label=""];
+9.9 -> 9.10 [style = solid, label="true"];
+9.10 -> 9.11 [style = solid, label=""];
+9.11 -> 9.12 [style = solid, label=""];
+9.11 -> 9.14 [style = solid, label=""];
+9.12 -> 9.13 [style = solid, label="true"];
+9.13 -> 9.14 [style = solid, label=""];
+}
+subgraph cluster10 {
+label = "public void untoleratedIncombustion() throws Throwable  <2...36>";
+10.0 [style = filled, label = "public void untoleratedIncombustion() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+10.1 [style = filled, label = "IO.staticReturnsTrue() <3>", fillcolor = white, shape = diamond];
+10.2 [style = filled, label = "BufferedReader subpreceptorial_nonproduction = null; <4>", fillcolor = white, shape = ellipse];
+10.3 [style = filled, label = "InputStreamReader anthropotomy_halibios = null; <5>", fillcolor = white, shape = ellipse];
+10.4 [style = filled, label = "anthropotomy_halibios = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+10.5 [style = filled, label = "subpreceptorial_nonproduction = new BufferedReader(anthropotomy_halibios); <8>", fillcolor = white, shape = ellipse];
+10.6 [style = filled, label = "double codeChar = 0; <9>", fillcolor = white, shape = ellipse];
+10.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+10.8 [style = filled, label = "codeChar = Double.parseDouble(subpreceptorial_nonproduction.readLine()); <12>", fillcolor = white, shape = ellipse];
+10.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+10.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+10.11 [style = filled, label = "IO.writeLine(\"\" + (float)codeChar); <16>", fillcolor = white, shape = ellipse];
+10.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+10.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+10.14 [style = filled, label = "{
+try {
+if (subpreceptorial_nonproduction != null) {
+subpreceptorial_nonproduction.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (anthropotomy_halibios != null) {
+anthropotomy_halibios.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+10.0 -> 10.1 [style = solid, label=""];
+10.1 -> 10.2 [style = solid, label="true"];
+10.2 -> 10.3 [style = solid, label=""];
+10.3 -> 10.4 [style = solid, label=""];
+10.4 -> 10.5 [style = solid, label=""];
+10.5 -> 10.6 [style = solid, label=""];
+10.6 -> 10.7 [style = solid, label=""];
+10.7 -> 10.8 [style = solid, label=""];
+10.8 -> 10.9 [style = solid, label=""];
+10.8 -> 10.11 [style = solid, label=""];
+10.9 -> 10.10 [style = solid, label="true"];
+10.10 -> 10.11 [style = solid, label=""];
+10.11 -> 10.12 [style = solid, label=""];
+10.11 -> 10.14 [style = solid, label=""];
+10.12 -> 10.13 [style = solid, label="true"];
+10.13 -> 10.14 [style = solid, label=""];
+}
+subgraph cluster11 {
+label = "public void unreconstructedMisogynistical() throws Throwable  <2...72>";
+11.0 [style = filled, label = "public void unreconstructedMisogynistical() throws Throwable  <2...72>", fillcolor = aquamarine, shape = ellipse];
+11.1 [style = filled, label = "IO.staticReturnsTrueOrFalse() <3>", fillcolor = white, shape = diamond];
+11.2 [style = filled, label = "BufferedReader intercortical_scopuliped = null; <4>", fillcolor = white, shape = ellipse];
+11.3 [style = filled, label = "InputStreamReader dumpcart_prehensiveness = null; <5>", fillcolor = white, shape = ellipse];
+11.4 [style = filled, label = "dumpcart_prehensiveness = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+11.5 [style = filled, label = "intercortical_scopuliped = new BufferedReader(dumpcart_prehensiveness); <8>", fillcolor = white, shape = ellipse];
+11.6 [style = filled, label = "double isomericDanic = 0; <9>", fillcolor = white, shape = ellipse];
+11.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+11.8 [style = filled, label = "isomericDanic = Double.parseDouble(intercortical_scopuliped.readLine()); <12>", fillcolor = white, shape = ellipse];
+11.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+11.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+11.11 [style = filled, label = "IO.writeLine(\"\" + (float)isomericDanic); <16>", fillcolor = white, shape = ellipse];
+11.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+11.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+11.14 [style = filled, label = "{
+try {
+if (intercortical_scopuliped != null) {
+intercortical_scopuliped.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (dumpcart_prehensiveness != null) {
+dumpcart_prehensiveness.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+11.15 [style = filled, label = "BufferedReader intercortical_scopuliped = null; <36>", fillcolor = white, shape = ellipse];
+11.16 [style = filled, label = "InputStreamReader dumpcart_prehensiveness = null; <37>", fillcolor = white, shape = ellipse];
+11.17 [style = filled, label = "dumpcart_prehensiveness = new InputStreamReader(System.in,\"UTF-8\"); <39>", fillcolor = white, shape = ellipse];
+11.18 [style = filled, label = "intercortical_scopuliped = new BufferedReader(dumpcart_prehensiveness); <40>", fillcolor = white, shape = ellipse];
+11.19 [style = filled, label = "double loaded = 0; <41>", fillcolor = white, shape = ellipse];
+11.20 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <42>", fillcolor = white, shape = ellipse];
+11.21 [style = filled, label = "loaded = Double.parseDouble(intercortical_scopuliped.readLine()); <44>", fillcolor = white, shape = ellipse];
+11.22 [style = filled, label = "NumberFormatException exceptionNumberFormat <45>", fillcolor = white, shape = diamond];
+11.23 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <46>", fillcolor = white, shape = ellipse];
+11.24 [style = filled, label = "loaded > Float.MAX_VALUE || loaded < Float.MIN_VALUE <48>", fillcolor = white, shape = diamond];
+11.25 [style = filled, label = "IO.writeLine(\"Error, cannot safely cast this number to a float!\"); <49>", fillcolor = white, shape = ellipse];
+11.26 [style = filled, label = "return; <50>", fillcolor = white, shape = ellipse];
+11.27 [style = filled, label = "IO.writeLine(\"\" + (float)loaded); <52>", fillcolor = white, shape = ellipse];
+11.28 [style = filled, label = "IOException exceptIO <53>", fillcolor = white, shape = diamond];
+11.29 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <54>", fillcolor = white, shape = ellipse];
+11.30 [style = filled, label = "{
+try {
+if (intercortical_scopuliped != null) {
+intercortical_scopuliped.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (dumpcart_prehensiveness != null) {
+dumpcart_prehensiveness.close();
+}
+}catch (IOException exceptIO) 
+} <55...70>", fillcolor = deeppink, shape = ellipse];
+11.0 -> 11.1 [style = solid, label=""];
+11.1 -> 11.2 [style = solid, label="true"];
+11.1 -> 11.15 [style = solid, label="false"];
+11.2 -> 11.3 [style = solid, label=""];
+11.3 -> 11.4 [style = solid, label=""];
+11.4 -> 11.5 [style = solid, label=""];
+11.5 -> 11.6 [style = solid, label=""];
+11.6 -> 11.7 [style = solid, label=""];
+11.7 -> 11.8 [style = solid, label=""];
+11.8 -> 11.9 [style = solid, label=""];
+11.8 -> 11.11 [style = solid, label=""];
+11.9 -> 11.10 [style = solid, label="true"];
+11.10 -> 11.11 [style = solid, label=""];
+11.11 -> 11.12 [style = solid, label=""];
+11.11 -> 11.14 [style = solid, label=""];
+11.12 -> 11.13 [style = solid, label="true"];
+11.13 -> 11.14 [style = solid, label=""];
+11.15 -> 11.16 [style = solid, label=""];
+11.16 -> 11.17 [style = solid, label=""];
+11.17 -> 11.18 [style = solid, label=""];
+11.18 -> 11.19 [style = solid, label=""];
+11.19 -> 11.20 [style = solid, label=""];
+11.20 -> 11.21 [style = solid, label=""];
+11.21 -> 11.22 [style = solid, label=""];
+11.21 -> 11.24 [style = solid, label=""];
+11.22 -> 11.23 [style = solid, label="true"];
+11.23 -> 11.24 [style = solid, label=""];
+11.24 -> 11.25 [style = solid, label="true"];
+11.24 -> 11.27 [style = solid, label="false"];
+11.25 -> 11.26 [style = solid, label=""];
+11.26 -> 11.27 [style = solid, label=""];
+11.27 -> 11.28 [style = solid, label=""];
+11.27 -> 11.30 [style = solid, label=""];
+11.28 -> 11.29 [style = solid, label="true"];
+11.29 -> 11.30 [style = solid, label=""];
+}
+subgraph cluster12 {
+label = "public void loginPassStart() throws Throwable  <2...36>";
+12.0 [style = filled, label = "public void loginPassStart() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+12.1 [style = filled, label = "IO.STATIC_FINAL_FIVE == 5 <3>", fillcolor = white, shape = diamond];
+12.2 [style = filled, label = "BufferedReader misdisposition_hayfork = null; <4>", fillcolor = white, shape = ellipse];
+12.3 [style = filled, label = "InputStreamReader idiotism_quaternary = null; <5>", fillcolor = white, shape = ellipse];
+12.4 [style = filled, label = "idiotism_quaternary = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+12.5 [style = filled, label = "misdisposition_hayfork = new BufferedReader(idiotism_quaternary); <8>", fillcolor = white, shape = ellipse];
+12.6 [style = filled, label = "double copernican_overservility = 0; <9>", fillcolor = white, shape = ellipse];
+12.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+12.8 [style = filled, label = "copernican_overservility = Double.parseDouble(misdisposition_hayfork.readLine()); <12>", fillcolor = white, shape = ellipse];
+12.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+12.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+12.11 [style = filled, label = "IO.writeLine(\"\" + (float)copernican_overservility); <16>", fillcolor = white, shape = ellipse];
+12.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+12.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+12.14 [style = filled, label = "{
+try {
+if (misdisposition_hayfork != null) {
+misdisposition_hayfork.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (idiotism_quaternary != null) {
+idiotism_quaternary.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+12.0 -> 12.1 [style = solid, label=""];
+12.1 -> 12.2 [style = solid, label="true"];
+12.2 -> 12.3 [style = solid, label=""];
+12.3 -> 12.4 [style = solid, label=""];
+12.4 -> 12.5 [style = solid, label=""];
+12.5 -> 12.6 [style = solid, label=""];
+12.6 -> 12.7 [style = solid, label=""];
+12.7 -> 12.8 [style = solid, label=""];
+12.8 -> 12.9 [style = solid, label=""];
+12.8 -> 12.11 [style = solid, label=""];
+12.9 -> 12.10 [style = solid, label="true"];
+12.10 -> 12.11 [style = solid, label=""];
+12.11 -> 12.12 [style = solid, label=""];
+12.11 -> 12.14 [style = solid, label=""];
+12.12 -> 12.13 [style = solid, label="true"];
+12.13 -> 12.14 [style = solid, label=""];
+}
+subgraph cluster13 {
+label = "public void hasOnlyGoldInInventory() throws Throwable  <2...36>";
+13.0 [style = filled, label = "public void hasOnlyGoldInInventory() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+13.1 [style = filled, label = "IO.staticFive == 5 <3>", fillcolor = white, shape = diamond];
+13.2 [style = filled, label = "BufferedReader eucharistically_flauntingly = null; <4>", fillcolor = white, shape = ellipse];
+13.3 [style = filled, label = "InputStreamReader unfigured_frogging = null; <5>", fillcolor = white, shape = ellipse];
+13.4 [style = filled, label = "unfigured_frogging = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+13.5 [style = filled, label = "eucharistically_flauntingly = new BufferedReader(unfigured_frogging); <8>", fillcolor = white, shape = ellipse];
+13.6 [style = filled, label = "double divalence_nonperishable = 0; <9>", fillcolor = white, shape = ellipse];
+13.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+13.8 [style = filled, label = "divalence_nonperishable = Double.parseDouble(eucharistically_flauntingly.readLine()); <12>", fillcolor = white, shape = ellipse];
+13.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+13.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+13.11 [style = filled, label = "IO.writeLine(\"\" + (float)divalence_nonperishable); <16>", fillcolor = white, shape = ellipse];
+13.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+13.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+13.14 [style = filled, label = "{
+try {
+if (eucharistically_flauntingly != null) {
+eucharistically_flauntingly.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (unfigured_frogging != null) {
+unfigured_frogging.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+13.0 -> 13.1 [style = solid, label=""];
+13.1 -> 13.2 [style = solid, label="true"];
+13.2 -> 13.3 [style = solid, label=""];
+13.3 -> 13.4 [style = solid, label=""];
+13.4 -> 13.5 [style = solid, label=""];
+13.5 -> 13.6 [style = solid, label=""];
+13.6 -> 13.7 [style = solid, label=""];
+13.7 -> 13.8 [style = solid, label=""];
+13.8 -> 13.9 [style = solid, label=""];
+13.8 -> 13.11 [style = solid, label=""];
+13.9 -> 13.10 [style = solid, label="true"];
+13.10 -> 13.11 [style = solid, label=""];
+13.11 -> 13.12 [style = solid, label=""];
+13.11 -> 13.14 [style = solid, label=""];
+13.12 -> 13.13 [style = solid, label="true"];
+13.13 -> 13.14 [style = solid, label=""];
+}
+subgraph cluster14 {
+label = "public void proritualPyrolatry() throws Throwable  <2...41>";
+14.0 [style = filled, label = "public void proritualPyrolatry() throws Throwable  <2...41>", fillcolor = aquamarine, shape = ellipse];
+14.1 [style = filled, label = "7 <3>", fillcolor = white, shape = diamond];
+14.2 [style = filled, label = "BufferedReader balanopreputial_demethylation = null; <5>", fillcolor = white, shape = ellipse];
+14.3 [style = filled, label = "InputStreamReader unsewered_puffinus = null; <6>", fillcolor = white, shape = ellipse];
+14.4 [style = filled, label = "unsewered_puffinus = new InputStreamReader(System.in,\"UTF-8\"); <8>", fillcolor = white, shape = ellipse];
+14.5 [style = filled, label = "balanopreputial_demethylation = new BufferedReader(unsewered_puffinus); <9>", fillcolor = white, shape = ellipse];
+14.6 [style = filled, label = "double mew_daubster = 0; <10>", fillcolor = white, shape = ellipse];
+14.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <11>", fillcolor = white, shape = ellipse];
+14.8 [style = filled, label = "mew_daubster = Double.parseDouble(balanopreputial_demethylation.readLine()); <13>", fillcolor = white, shape = ellipse];
+14.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <14>", fillcolor = white, shape = diamond];
+14.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <15>", fillcolor = white, shape = ellipse];
+14.11 [style = filled, label = "IO.writeLine(\"\" + (float)mew_daubster); <17>", fillcolor = white, shape = ellipse];
+14.12 [style = filled, label = "IOException exceptIO <18>", fillcolor = white, shape = diamond];
+14.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <19>", fillcolor = white, shape = ellipse];
+14.14 [style = filled, label = "{
+try {
+if (balanopreputial_demethylation != null) {
+balanopreputial_demethylation.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (unsewered_puffinus != null) {
+unsewered_puffinus.close();
+}
+}catch (IOException exceptIO) 
+} <20...35>", fillcolor = white, shape = ellipse];
+14.15 [style = filled, label = "IO.writeLine(\"Benign, fixed string\"); <38>", fillcolor = white, shape = ellipse];
+14.0 -> 14.1 [style = solid, label=""];
+14.1 -> 14.2 [style = solid, label="true"];
+14.1 -> 14.15 [style = solid, label="true"];
+14.2 -> 14.3 [style = solid, label=""];
+14.3 -> 14.4 [style = solid, label=""];
+14.4 -> 14.5 [style = solid, label=""];
+14.5 -> 14.6 [style = solid, label=""];
+14.6 -> 14.7 [style = solid, label=""];
+14.7 -> 14.8 [style = solid, label=""];
+14.8 -> 14.9 [style = solid, label=""];
+14.8 -> 14.11 [style = solid, label=""];
+14.9 -> 14.10 [style = solid, label="true"];
+14.10 -> 14.11 [style = solid, label=""];
+14.11 -> 14.12 [style = solid, label=""];
+14.11 -> 14.14 [style = solid, label=""];
+14.12 -> 14.13 [style = solid, label="true"];
+14.13 -> 14.14 [style = solid, label=""];
+}
+subgraph cluster15 {
+label = "public void definition() throws Throwable  <2...37>";
+15.0 [style = filled, label = "public void definition() throws Throwable  <2...37>", fillcolor = aquamarine, shape = ellipse];
+15.1 [style = filled, label = "true <3>", fillcolor = white, shape = diamond];
+15.2 [style = filled, label = "BufferedReader multicourse_paparchical = null; <4>", fillcolor = white, shape = ellipse];
+15.3 [style = filled, label = "InputStreamReader superconfident_frijolillo = null; <5>", fillcolor = white, shape = ellipse];
+15.4 [style = filled, label = "superconfident_frijolillo = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+15.5 [style = filled, label = "multicourse_paparchical = new BufferedReader(superconfident_frijolillo); <8>", fillcolor = white, shape = ellipse];
+15.6 [style = filled, label = "double maid_ungenuineness = 0; <9>", fillcolor = white, shape = ellipse];
+15.7 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+15.8 [style = filled, label = "maid_ungenuineness = Double.parseDouble(multicourse_paparchical.readLine()); <12>", fillcolor = white, shape = ellipse];
+15.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+15.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+15.11 [style = filled, label = "IO.writeLine(\"\" + (float)maid_ungenuineness); <16>", fillcolor = white, shape = ellipse];
+15.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+15.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+15.14 [style = filled, label = "{
+try {
+if (multicourse_paparchical != null) {
+multicourse_paparchical.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (superconfident_frijolillo != null) {
+superconfident_frijolillo.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = white, shape = ellipse];
+15.0 -> 15.1 [style = solid, label=""];
+15.1 -> 15.2 [style = solid, label="true"];
+15.2 -> 15.3 [style = solid, label=""];
+15.3 -> 15.4 [style = solid, label=""];
+15.4 -> 15.5 [style = solid, label=""];
+15.5 -> 15.6 [style = solid, label=""];
+15.6 -> 15.7 [style = solid, label=""];
+15.7 -> 15.8 [style = solid, label=""];
+15.8 -> 15.9 [style = solid, label=""];
+15.8 -> 15.11 [style = solid, label=""];
+15.9 -> 15.10 [style = solid, label="true"];
+15.10 -> 15.11 [style = solid, label=""];
+15.11 -> 15.12 [style = solid, label=""];
+15.11 -> 15.14 [style = solid, label=""];
+15.12 -> 15.13 [style = solid, label="true"];
+15.13 -> 15.14 [style = solid, label=""];
+}
+subgraph cluster16 {
+label = "public void goniometricalFistulana() throws Throwable  <2...36>";
+16.0 [style = filled, label = "public void goniometricalFistulana() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+16.1 [style = filled, label = "int postpatellar_sarzan = 0 <3>", fillcolor = white, shape = ellipse];
+16.2 [style = filled, label = "postpatellar_sarzan < 1 <3>", fillcolor = deeppink, shape = diamond];
+16.3 [style = filled, label = "postpatellar_sarzan++ <3>", fillcolor = white, shape = ellipse];
+16.4 [style = filled, label = "BufferedReader decorationist_jacobitiana = null; <4>", fillcolor = white, shape = ellipse];
+16.5 [style = filled, label = "InputStreamReader overjocular_subtract = null; <5>", fillcolor = white, shape = ellipse];
+16.6 [style = filled, label = "overjocular_subtract = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+16.7 [style = filled, label = "decorationist_jacobitiana = new BufferedReader(overjocular_subtract); <8>", fillcolor = white, shape = ellipse];
+16.8 [style = filled, label = "double opisthotonic_thurify = 0; <9>", fillcolor = white, shape = ellipse];
+16.9 [style = filled, label = "IO.writeString(\"Enter double number (1e-50): \"); <10>", fillcolor = white, shape = ellipse];
+16.10 [style = filled, label = "opisthotonic_thurify = Double.parseDouble(decorationist_jacobitiana.readLine()); <12>", fillcolor = white, shape = ellipse];
+16.11 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+16.12 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+16.13 [style = filled, label = "IO.writeLine(\"\" + (float)opisthotonic_thurify); <16>", fillcolor = white, shape = ellipse];
+16.14 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+16.15 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+16.16 [style = filled, label = "{
+try {
+if (decorationist_jacobitiana != null) {
+decorationist_jacobitiana.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (overjocular_subtract != null) {
+overjocular_subtract.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = white, shape = ellipse];
+16.0 -> 16.1 [style = solid, label=""];
+16.1 -> 16.2 [style = solid, label=""];
+16.2 -> 16.4 [style = solid, label="true"];
+16.3 -> 16.2 [style = solid, label=""];
+16.4 -> 16.5 [style = solid, label=""];
+16.5 -> 16.6 [style = solid, label=""];
+16.6 -> 16.7 [style = solid, label=""];
+16.7 -> 16.8 [style = solid, label=""];
+16.8 -> 16.9 [style = solid, label=""];
+16.9 -> 16.10 [style = solid, label=""];
+16.10 -> 16.11 [style = solid, label=""];
+16.10 -> 16.13 [style = solid, label=""];
+16.11 -> 16.12 [style = solid, label="true"];
+16.12 -> 16.13 [style = solid, label=""];
+16.13 -> 16.14 [style = solid, label=""];
+16.13 -> 16.16 [style = solid, label=""];
+16.14 -> 16.15 [style = solid, label="true"];
+16.15 -> 16.16 [style = solid, label=""];
+16.16 -> 16.3 [style = solid, label=""];
+}
+subgraph cluster17 {
+label = "public void addIterationListener() throws Throwable  <2...34>";
+17.0 [style = filled, label = "public void addIterationListener() throws Throwable  <2...34>", fillcolor = aquamarine, shape = ellipse];
+17.1 [style = filled, label = "BufferedReader counter = null; <3>", fillcolor = white, shape = ellipse];
+17.2 [style = filled, label = "InputStreamReader settledlyOvertax = null; <4>", fillcolor = white, shape = ellipse];
+17.3 [style = filled, label = "settledlyOvertax = new InputStreamReader(System.in,\"UTF-8\"); <6>", fillcolor = white, shape = ellipse];
+17.4 [style = filled, label = "counter = new BufferedReader(settledlyOvertax); <7>", fillcolor = white, shape = ellipse];
+17.5 [style = filled, label = "float tagEnd = 0; <8>", fillcolor = white, shape = ellipse];
+17.6 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <9>", fillcolor = white, shape = ellipse];
+17.7 [style = filled, label = "tagEnd = Float.parseFloat(counter.readLine()); <11>", fillcolor = white, shape = ellipse];
+17.8 [style = filled, label = "NumberFormatException exceptionNumberFormat <12>", fillcolor = white, shape = diamond];
+17.9 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <13>", fillcolor = white, shape = ellipse];
+17.10 [style = filled, label = "IO.writeLine(\"\" + (int)tagEnd); <15>", fillcolor = white, shape = ellipse];
+17.11 [style = filled, label = "IOException exceptIO <16>", fillcolor = white, shape = diamond];
+17.12 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <17>", fillcolor = white, shape = ellipse];
+17.13 [style = filled, label = "{
+try {
+if (counter != null) {
+counter.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (settledlyOvertax != null) {
+settledlyOvertax.close();
+}
+}catch (IOException exceptIO) 
+} <18...33>", fillcolor = deeppink, shape = ellipse];
+17.0 -> 17.1 [style = solid, label=""];
+17.1 -> 17.2 [style = solid, label=""];
+17.2 -> 17.3 [style = solid, label=""];
+17.3 -> 17.4 [style = solid, label=""];
+17.4 -> 17.5 [style = solid, label=""];
+17.5 -> 17.6 [style = solid, label=""];
+17.6 -> 17.7 [style = solid, label=""];
+17.7 -> 17.8 [style = solid, label=""];
+17.7 -> 17.10 [style = solid, label=""];
+17.8 -> 17.9 [style = solid, label="true"];
+17.9 -> 17.10 [style = solid, label=""];
+17.10 -> 17.11 [style = solid, label=""];
+17.10 -> 17.13 [style = solid, label=""];
+17.11 -> 17.12 [style = solid, label="true"];
+17.12 -> 17.13 [style = solid, label=""];
+}
+subgraph cluster18 {
+label = "public void demolitionistHuddling() throws Throwable  <2...36>";
+18.0 [style = filled, label = "public void demolitionistHuddling() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+18.1 [style = filled, label = "true <3>", fillcolor = white, shape = diamond];
+18.2 [style = filled, label = "BufferedReader maigre_cichlidae = null; <4>", fillcolor = white, shape = ellipse];
+18.3 [style = filled, label = "InputStreamReader autosepticemia_betulin = null; <5>", fillcolor = white, shape = ellipse];
+18.4 [style = filled, label = "autosepticemia_betulin = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+18.5 [style = filled, label = "maigre_cichlidae = new BufferedReader(autosepticemia_betulin); <8>", fillcolor = white, shape = ellipse];
+18.6 [style = filled, label = "float bogey_shaped = 0; <9>", fillcolor = white, shape = ellipse];
+18.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+18.8 [style = filled, label = "bogey_shaped = Float.parseFloat(maigre_cichlidae.readLine()); <12>", fillcolor = white, shape = ellipse];
+18.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+18.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+18.11 [style = filled, label = "IO.writeLine(\"\" + (int)bogey_shaped); <16>", fillcolor = white, shape = ellipse];
+18.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+18.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+18.14 [style = filled, label = "{
+try {
+if (maigre_cichlidae != null) {
+maigre_cichlidae.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (autosepticemia_betulin != null) {
+autosepticemia_betulin.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+18.0 -> 18.1 [style = solid, label=""];
+18.1 -> 18.2 [style = solid, label="true"];
+18.2 -> 18.3 [style = solid, label=""];
+18.3 -> 18.4 [style = solid, label=""];
+18.4 -> 18.5 [style = solid, label=""];
+18.5 -> 18.6 [style = solid, label=""];
+18.6 -> 18.7 [style = solid, label=""];
+18.7 -> 18.8 [style = solid, label=""];
+18.8 -> 18.9 [style = solid, label=""];
+18.8 -> 18.11 [style = solid, label=""];
+18.9 -> 18.10 [style = solid, label="true"];
+18.10 -> 18.11 [style = solid, label=""];
+18.11 -> 18.12 [style = solid, label=""];
+18.11 -> 18.14 [style = solid, label=""];
+18.12 -> 18.13 [style = solid, label="true"];
+18.13 -> 18.14 [style = solid, label=""];
+}
+subgraph cluster19 {
+label = "public void pritheeUndissembled() throws Throwable  <2...36>";
+19.0 [style = filled, label = "public void pritheeUndissembled() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+19.1 [style = filled, label = "5 == 5 <3>", fillcolor = white, shape = diamond];
+19.2 [style = filled, label = "BufferedReader misbelievingly_skipper = null; <4>", fillcolor = white, shape = ellipse];
+19.3 [style = filled, label = "InputStreamReader unpagedPreconviction = null; <5>", fillcolor = white, shape = ellipse];
+19.4 [style = filled, label = "unpagedPreconviction = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+19.5 [style = filled, label = "misbelievingly_skipper = new BufferedReader(unpagedPreconviction); <8>", fillcolor = white, shape = ellipse];
+19.6 [style = filled, label = "float filthyAbiotrophy = 0; <9>", fillcolor = white, shape = ellipse];
+19.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+19.8 [style = filled, label = "filthyAbiotrophy = Float.parseFloat(misbelievingly_skipper.readLine()); <12>", fillcolor = white, shape = ellipse];
+19.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+19.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+19.11 [style = filled, label = "IO.writeLine(\"\" + (int)filthyAbiotrophy); <16>", fillcolor = white, shape = ellipse];
+19.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+19.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+19.14 [style = filled, label = "{
+try {
+if (misbelievingly_skipper != null) {
+misbelievingly_skipper.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (unpagedPreconviction != null) {
+unpagedPreconviction.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+19.0 -> 19.1 [style = solid, label=""];
+19.1 -> 19.2 [style = solid, label="true"];
+19.2 -> 19.3 [style = solid, label=""];
+19.3 -> 19.4 [style = solid, label=""];
+19.4 -> 19.5 [style = solid, label=""];
+19.5 -> 19.6 [style = solid, label=""];
+19.6 -> 19.7 [style = solid, label=""];
+19.7 -> 19.8 [style = solid, label=""];
+19.8 -> 19.9 [style = solid, label=""];
+19.8 -> 19.11 [style = solid, label=""];
+19.9 -> 19.10 [style = solid, label="true"];
+19.10 -> 19.11 [style = solid, label=""];
+19.11 -> 19.12 [style = solid, label=""];
+19.11 -> 19.14 [style = solid, label=""];
+19.12 -> 19.13 [style = solid, label="true"];
+19.13 -> 19.14 [style = solid, label=""];
+}
+subgraph cluster20 {
+label = "public void buildRequiredWeaponMaterials() throws Throwable  <2...36>";
+20.0 [style = filled, label = "public void buildRequiredWeaponMaterials() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+20.1 [style = filled, label = "PRIVATE_STATIC_FINAL_TRUE <3>", fillcolor = white, shape = diamond];
+20.2 [style = filled, label = "BufferedReader tarefaApoquinamine = null; <4>", fillcolor = white, shape = ellipse];
+20.3 [style = filled, label = "InputStreamReader ClassStr = null; <5>", fillcolor = white, shape = ellipse];
+20.4 [style = filled, label = "ClassStr = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+20.5 [style = filled, label = "tarefaApoquinamine = new BufferedReader(ClassStr); <8>", fillcolor = white, shape = ellipse];
+20.6 [style = filled, label = "float marginationDiatomales = 0; <9>", fillcolor = white, shape = ellipse];
+20.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+20.8 [style = filled, label = "marginationDiatomales = Float.parseFloat(tarefaApoquinamine.readLine()); <12>", fillcolor = white, shape = ellipse];
+20.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+20.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+20.11 [style = filled, label = "IO.writeLine(\"\" + (int)marginationDiatomales); <16>", fillcolor = white, shape = ellipse];
+20.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+20.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+20.14 [style = filled, label = "{
+try {
+if (tarefaApoquinamine != null) {
+tarefaApoquinamine.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (ClassStr != null) {
+ClassStr.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+20.0 -> 20.1 [style = solid, label=""];
+20.1 -> 20.2 [style = solid, label="true"];
+20.2 -> 20.3 [style = solid, label=""];
+20.3 -> 20.4 [style = solid, label=""];
+20.4 -> 20.5 [style = solid, label=""];
+20.5 -> 20.6 [style = solid, label=""];
+20.6 -> 20.7 [style = solid, label=""];
+20.7 -> 20.8 [style = solid, label=""];
+20.8 -> 20.9 [style = solid, label=""];
+20.8 -> 20.11 [style = solid, label=""];
+20.9 -> 20.10 [style = solid, label="true"];
+20.10 -> 20.11 [style = solid, label=""];
+20.11 -> 20.12 [style = solid, label=""];
+20.11 -> 20.14 [style = solid, label=""];
+20.12 -> 20.13 [style = solid, label="true"];
+20.13 -> 20.14 [style = solid, label=""];
+}
+subgraph cluster21 {
+label = "public void elytrumHeromonger() throws Throwable  <2...36>";
+21.0 [style = filled, label = "public void elytrumHeromonger() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+21.1 [style = filled, label = "privateTrue <3>", fillcolor = white, shape = diamond];
+21.2 [style = filled, label = "BufferedReader tregergHelpmeet = null; <4>", fillcolor = white, shape = ellipse];
+21.3 [style = filled, label = "InputStreamReader nettapus_bosset = null; <5>", fillcolor = white, shape = ellipse];
+21.4 [style = filled, label = "nettapus_bosset = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+21.5 [style = filled, label = "tregergHelpmeet = new BufferedReader(nettapus_bosset); <8>", fillcolor = white, shape = ellipse];
+21.6 [style = filled, label = "float aerocartographPalpebra = 0; <9>", fillcolor = white, shape = ellipse];
+21.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+21.8 [style = filled, label = "aerocartographPalpebra = Float.parseFloat(tregergHelpmeet.readLine()); <12>", fillcolor = white, shape = ellipse];
+21.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+21.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+21.11 [style = filled, label = "IO.writeLine(\"\" + (int)aerocartographPalpebra); <16>", fillcolor = white, shape = ellipse];
+21.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+21.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+21.14 [style = filled, label = "{
+try {
+if (tregergHelpmeet != null) {
+tregergHelpmeet.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (nettapus_bosset != null) {
+nettapus_bosset.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+21.0 -> 21.1 [style = solid, label=""];
+21.1 -> 21.2 [style = solid, label="true"];
+21.2 -> 21.3 [style = solid, label=""];
+21.3 -> 21.4 [style = solid, label=""];
+21.4 -> 21.5 [style = solid, label=""];
+21.5 -> 21.6 [style = solid, label=""];
+21.6 -> 21.7 [style = solid, label=""];
+21.7 -> 21.8 [style = solid, label=""];
+21.8 -> 21.9 [style = solid, label=""];
+21.8 -> 21.11 [style = solid, label=""];
+21.9 -> 21.10 [style = solid, label="true"];
+21.10 -> 21.11 [style = solid, label=""];
+21.11 -> 21.12 [style = solid, label=""];
+21.11 -> 21.14 [style = solid, label=""];
+21.12 -> 21.13 [style = solid, label="true"];
+21.13 -> 21.14 [style = solid, label=""];
+}
+subgraph cluster22 {
+label = "public void fireIterEvents() throws Throwable  <2...36>";
+22.0 [style = filled, label = "public void fireIterEvents() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+22.1 [style = filled, label = "PRIVATE_STATIC_FINAL_FIVE == 5 <3>", fillcolor = white, shape = diamond];
+22.2 [style = filled, label = "BufferedReader potmaking_moonscape = null; <4>", fillcolor = white, shape = ellipse];
+22.3 [style = filled, label = "InputStreamReader harman_patriarchess = null; <5>", fillcolor = white, shape = ellipse];
+22.4 [style = filled, label = "harman_patriarchess = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+22.5 [style = filled, label = "potmaking_moonscape = new BufferedReader(harman_patriarchess); <8>", fillcolor = white, shape = ellipse];
+22.6 [style = filled, label = "float unfarcical_chinchasuyu = 0; <9>", fillcolor = white, shape = ellipse];
+22.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+22.8 [style = filled, label = "unfarcical_chinchasuyu = Float.parseFloat(potmaking_moonscape.readLine()); <12>", fillcolor = white, shape = ellipse];
+22.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+22.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+22.11 [style = filled, label = "IO.writeLine(\"\" + (int)unfarcical_chinchasuyu); <16>", fillcolor = white, shape = ellipse];
+22.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+22.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+22.14 [style = filled, label = "{
+try {
+if (potmaking_moonscape != null) {
+potmaking_moonscape.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (harman_patriarchess != null) {
+harman_patriarchess.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+22.0 -> 22.1 [style = solid, label=""];
+22.1 -> 22.2 [style = solid, label="true"];
+22.2 -> 22.3 [style = solid, label=""];
+22.3 -> 22.4 [style = solid, label=""];
+22.4 -> 22.5 [style = solid, label=""];
+22.5 -> 22.6 [style = solid, label=""];
+22.6 -> 22.7 [style = solid, label=""];
+22.7 -> 22.8 [style = solid, label=""];
+22.8 -> 22.9 [style = solid, label=""];
+22.8 -> 22.11 [style = solid, label=""];
+22.9 -> 22.10 [style = solid, label="true"];
+22.10 -> 22.11 [style = solid, label=""];
+22.11 -> 22.12 [style = solid, label=""];
+22.11 -> 22.14 [style = solid, label=""];
+22.12 -> 22.13 [style = solid, label="true"];
+22.13 -> 22.14 [style = solid, label=""];
+}
+subgraph cluster23 {
+label = "public void getGlobal() throws Throwable  <2...36>";
+23.0 [style = filled, label = "public void getGlobal() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+23.1 [style = filled, label = "privateFive == 5 <3>", fillcolor = white, shape = diamond];
+23.2 [style = filled, label = "BufferedReader puzzlepatednessEqualable = null; <4>", fillcolor = white, shape = ellipse];
+23.3 [style = filled, label = "InputStreamReader ergomaniac_larvicide = null; <5>", fillcolor = white, shape = ellipse];
+23.4 [style = filled, label = "ergomaniac_larvicide = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+23.5 [style = filled, label = "puzzlepatednessEqualable = new BufferedReader(ergomaniac_larvicide); <8>", fillcolor = white, shape = ellipse];
+23.6 [style = filled, label = "float cupania_tuffet = 0; <9>", fillcolor = white, shape = ellipse];
+23.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+23.8 [style = filled, label = "cupania_tuffet = Float.parseFloat(puzzlepatednessEqualable.readLine()); <12>", fillcolor = white, shape = ellipse];
+23.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+23.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+23.11 [style = filled, label = "IO.writeLine(\"\" + (int)cupania_tuffet); <16>", fillcolor = white, shape = ellipse];
+23.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+23.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+23.14 [style = filled, label = "{
+try {
+if (puzzlepatednessEqualable != null) {
+puzzlepatednessEqualable.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (ergomaniac_larvicide != null) {
+ergomaniac_larvicide.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+23.0 -> 23.1 [style = solid, label=""];
+23.1 -> 23.2 [style = solid, label="true"];
+23.2 -> 23.3 [style = solid, label=""];
+23.3 -> 23.4 [style = solid, label=""];
+23.4 -> 23.5 [style = solid, label=""];
+23.5 -> 23.6 [style = solid, label=""];
+23.6 -> 23.7 [style = solid, label=""];
+23.7 -> 23.8 [style = solid, label=""];
+23.8 -> 23.9 [style = solid, label=""];
+23.8 -> 23.11 [style = solid, label=""];
+23.9 -> 23.10 [style = solid, label="true"];
+23.10 -> 23.11 [style = solid, label=""];
+23.11 -> 23.12 [style = solid, label=""];
+23.11 -> 23.14 [style = solid, label=""];
+23.12 -> 23.13 [style = solid, label="true"];
+23.13 -> 23.14 [style = solid, label=""];
+}
+subgraph cluster24 {
+label = "public void spindlefulNosewards() throws Throwable  <2...36>";
+24.0 [style = filled, label = "public void spindlefulNosewards() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+24.1 [style = filled, label = "privateReturnsTrue() <3>", fillcolor = white, shape = diamond];
+24.2 [style = filled, label = "BufferedReader ascolichenes_inserter = null; <4>", fillcolor = white, shape = ellipse];
+24.3 [style = filled, label = "InputStreamReader grievance_blackie = null; <5>", fillcolor = white, shape = ellipse];
+24.4 [style = filled, label = "grievance_blackie = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+24.5 [style = filled, label = "ascolichenes_inserter = new BufferedReader(grievance_blackie); <8>", fillcolor = white, shape = ellipse];
+24.6 [style = filled, label = "float convocational_undomiciled = 0; <9>", fillcolor = white, shape = ellipse];
+24.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+24.8 [style = filled, label = "convocational_undomiciled = Float.parseFloat(ascolichenes_inserter.readLine()); <12>", fillcolor = white, shape = ellipse];
+24.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+24.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+24.11 [style = filled, label = "IO.writeLine(\"\" + (int)convocational_undomiciled); <16>", fillcolor = white, shape = ellipse];
+24.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+24.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+24.14 [style = filled, label = "{
+try {
+if (ascolichenes_inserter != null) {
+ascolichenes_inserter.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (grievance_blackie != null) {
+grievance_blackie.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+24.0 -> 24.1 [style = solid, label=""];
+24.1 -> 24.2 [style = solid, label="true"];
+24.2 -> 24.3 [style = solid, label=""];
+24.3 -> 24.4 [style = solid, label=""];
+24.4 -> 24.5 [style = solid, label=""];
+24.5 -> 24.6 [style = solid, label=""];
+24.6 -> 24.7 [style = solid, label=""];
+24.7 -> 24.8 [style = solid, label=""];
+24.8 -> 24.9 [style = solid, label=""];
+24.8 -> 24.11 [style = solid, label=""];
+24.9 -> 24.10 [style = solid, label="true"];
+24.10 -> 24.11 [style = solid, label=""];
+24.11 -> 24.12 [style = solid, label=""];
+24.11 -> 24.14 [style = solid, label=""];
+24.12 -> 24.13 [style = solid, label="true"];
+24.13 -> 24.14 [style = solid, label=""];
+}
+subgraph cluster25 {
+label = "public void midparentalNonstatistical() throws Throwable  <2...36>";
+25.0 [style = filled, label = "public void midparentalNonstatistical() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+25.1 [style = filled, label = "IO.STATIC_FINAL_TRUE <3>", fillcolor = white, shape = diamond];
+25.2 [style = filled, label = "BufferedReader lionizable_lamby = null; <4>", fillcolor = white, shape = ellipse];
+25.3 [style = filled, label = "InputStreamReader energicDesolately = null; <5>", fillcolor = white, shape = ellipse];
+25.4 [style = filled, label = "energicDesolately = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+25.5 [style = filled, label = "lionizable_lamby = new BufferedReader(energicDesolately); <8>", fillcolor = white, shape = ellipse];
+25.6 [style = filled, label = "float racialAbilities = 0; <9>", fillcolor = white, shape = ellipse];
+25.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+25.8 [style = filled, label = "racialAbilities = Float.parseFloat(lionizable_lamby.readLine()); <12>", fillcolor = white, shape = ellipse];
+25.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+25.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+25.11 [style = filled, label = "IO.writeLine(\"\" + (int)racialAbilities); <16>", fillcolor = white, shape = ellipse];
+25.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+25.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+25.14 [style = filled, label = "{
+try {
+if (lionizable_lamby != null) {
+lionizable_lamby.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (energicDesolately != null) {
+energicDesolately.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+25.0 -> 25.1 [style = solid, label=""];
+25.1 -> 25.2 [style = solid, label="true"];
+25.2 -> 25.3 [style = solid, label=""];
+25.3 -> 25.4 [style = solid, label=""];
+25.4 -> 25.5 [style = solid, label=""];
+25.5 -> 25.6 [style = solid, label=""];
+25.6 -> 25.7 [style = solid, label=""];
+25.7 -> 25.8 [style = solid, label=""];
+25.8 -> 25.9 [style = solid, label=""];
+25.8 -> 25.11 [style = solid, label=""];
+25.9 -> 25.10 [style = solid, label="true"];
+25.10 -> 25.11 [style = solid, label=""];
+25.11 -> 25.12 [style = solid, label=""];
+25.11 -> 25.14 [style = solid, label=""];
+25.12 -> 25.13 [style = solid, label="true"];
+25.13 -> 25.14 [style = solid, label=""];
+}
+subgraph cluster26 {
+label = "public void modernizableOverfaithfully() throws Throwable  <2...36>";
+26.0 [style = filled, label = "public void modernizableOverfaithfully() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+26.1 [style = filled, label = "IO.staticTrue <3>", fillcolor = white, shape = diamond];
+26.2 [style = filled, label = "BufferedReader designative_overlay = null; <4>", fillcolor = white, shape = ellipse];
+26.3 [style = filled, label = "InputStreamReader theurgicalHeathbird = null; <5>", fillcolor = white, shape = ellipse];
+26.4 [style = filled, label = "theurgicalHeathbird = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+26.5 [style = filled, label = "designative_overlay = new BufferedReader(theurgicalHeathbird); <8>", fillcolor = white, shape = ellipse];
+26.6 [style = filled, label = "float extraordinary_mizzle = 0; <9>", fillcolor = white, shape = ellipse];
+26.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+26.8 [style = filled, label = "extraordinary_mizzle = Float.parseFloat(designative_overlay.readLine()); <12>", fillcolor = white, shape = ellipse];
+26.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+26.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+26.11 [style = filled, label = "IO.writeLine(\"\" + (int)extraordinary_mizzle); <16>", fillcolor = white, shape = ellipse];
+26.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+26.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+26.14 [style = filled, label = "{
+try {
+if (designative_overlay != null) {
+designative_overlay.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (theurgicalHeathbird != null) {
+theurgicalHeathbird.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+26.0 -> 26.1 [style = solid, label=""];
+26.1 -> 26.2 [style = solid, label="true"];
+26.2 -> 26.3 [style = solid, label=""];
+26.3 -> 26.4 [style = solid, label=""];
+26.4 -> 26.5 [style = solid, label=""];
+26.5 -> 26.6 [style = solid, label=""];
+26.6 -> 26.7 [style = solid, label=""];
+26.7 -> 26.8 [style = solid, label=""];
+26.8 -> 26.9 [style = solid, label=""];
+26.8 -> 26.11 [style = solid, label=""];
+26.9 -> 26.10 [style = solid, label="true"];
+26.10 -> 26.11 [style = solid, label=""];
+26.11 -> 26.12 [style = solid, label=""];
+26.11 -> 26.14 [style = solid, label=""];
+26.12 -> 26.13 [style = solid, label="true"];
+26.13 -> 26.14 [style = solid, label=""];
+}
+subgraph cluster27 {
+label = "public void translateSingleCMCodeToANSIOffSet() throws Throwable  <2...36>";
+27.0 [style = filled, label = "public void translateSingleCMCodeToANSIOffSet() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+27.1 [style = filled, label = "IO.staticReturnsTrue() <3>", fillcolor = white, shape = diamond];
+27.2 [style = filled, label = "BufferedReader antiphonon_gymnical = null; <4>", fillcolor = white, shape = ellipse];
+27.3 [style = filled, label = "InputStreamReader inSpec = null; <5>", fillcolor = white, shape = ellipse];
+27.4 [style = filled, label = "inSpec = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+27.5 [style = filled, label = "antiphonon_gymnical = new BufferedReader(inSpec); <8>", fillcolor = white, shape = ellipse];
+27.6 [style = filled, label = "float listFileOrd = 0; <9>", fillcolor = white, shape = ellipse];
+27.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+27.8 [style = filled, label = "listFileOrd = Float.parseFloat(antiphonon_gymnical.readLine()); <12>", fillcolor = white, shape = ellipse];
+27.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+27.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+27.11 [style = filled, label = "IO.writeLine(\"\" + (int)listFileOrd); <16>", fillcolor = white, shape = ellipse];
+27.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+27.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+27.14 [style = filled, label = "{
+try {
+if (antiphonon_gymnical != null) {
+antiphonon_gymnical.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (inSpec != null) {
+inSpec.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+27.0 -> 27.1 [style = solid, label=""];
+27.1 -> 27.2 [style = solid, label="true"];
+27.2 -> 27.3 [style = solid, label=""];
+27.3 -> 27.4 [style = solid, label=""];
+27.4 -> 27.5 [style = solid, label=""];
+27.5 -> 27.6 [style = solid, label=""];
+27.6 -> 27.7 [style = solid, label=""];
+27.7 -> 27.8 [style = solid, label=""];
+27.8 -> 27.9 [style = solid, label=""];
+27.8 -> 27.11 [style = solid, label=""];
+27.9 -> 27.10 [style = solid, label="true"];
+27.10 -> 27.11 [style = solid, label=""];
+27.11 -> 27.12 [style = solid, label=""];
+27.11 -> 27.14 [style = solid, label=""];
+27.12 -> 27.13 [style = solid, label="true"];
+27.13 -> 27.14 [style = solid, label=""];
+}
+subgraph cluster28 {
+label = "public void frizeBardiglio() throws Throwable  <2...72>";
+28.0 [style = filled, label = "public void frizeBardiglio() throws Throwable  <2...72>", fillcolor = aquamarine, shape = ellipse];
+28.1 [style = filled, label = "IO.staticReturnsTrueOrFalse() <3>", fillcolor = white, shape = diamond];
+28.2 [style = filled, label = "BufferedReader trioPrehensiveness = null; <4>", fillcolor = white, shape = ellipse];
+28.3 [style = filled, label = "InputStreamReader refulge_tapmost = null; <5>", fillcolor = white, shape = ellipse];
+28.4 [style = filled, label = "refulge_tapmost = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+28.5 [style = filled, label = "trioPrehensiveness = new BufferedReader(refulge_tapmost); <8>", fillcolor = white, shape = ellipse];
+28.6 [style = filled, label = "float undiffusible_bihydrazine = 0; <9>", fillcolor = white, shape = ellipse];
+28.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+28.8 [style = filled, label = "undiffusible_bihydrazine = Float.parseFloat(trioPrehensiveness.readLine()); <12>", fillcolor = white, shape = ellipse];
+28.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+28.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+28.11 [style = filled, label = "IO.writeLine(\"\" + (int)undiffusible_bihydrazine); <16>", fillcolor = white, shape = ellipse];
+28.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+28.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+28.14 [style = filled, label = "{
+try {
+if (trioPrehensiveness != null) {
+trioPrehensiveness.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (refulge_tapmost != null) {
+refulge_tapmost.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+28.15 [style = filled, label = "BufferedReader trioPrehensiveness = null; <36>", fillcolor = white, shape = ellipse];
+28.16 [style = filled, label = "InputStreamReader refulge_tapmost = null; <37>", fillcolor = white, shape = ellipse];
+28.17 [style = filled, label = "refulge_tapmost = new InputStreamReader(System.in,\"UTF-8\"); <39>", fillcolor = white, shape = ellipse];
+28.18 [style = filled, label = "trioPrehensiveness = new BufferedReader(refulge_tapmost); <40>", fillcolor = white, shape = ellipse];
+28.19 [style = filled, label = "float undiffusible_bihydrazine = 0; <41>", fillcolor = white, shape = ellipse];
+28.20 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <42>", fillcolor = white, shape = ellipse];
+28.21 [style = filled, label = "undiffusible_bihydrazine = Float.parseFloat(trioPrehensiveness.readLine()); <44>", fillcolor = white, shape = ellipse];
+28.22 [style = filled, label = "NumberFormatException exceptionNumberFormat <45>", fillcolor = white, shape = diamond];
+28.23 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <46>", fillcolor = white, shape = ellipse];
+28.24 [style = filled, label = "undiffusible_bihydrazine > Integer.MAX_VALUE || undiffusible_bihydrazine < Integer.MIN_VALUE <48>", fillcolor = white, shape = diamond];
+28.25 [style = filled, label = "IO.writeLine(\"Value is too small or large to be represented as an int\"); <49>", fillcolor = white, shape = ellipse];
+28.26 [style = filled, label = "IO.writeLine(\"\" + (int)undiffusible_bihydrazine); <51>", fillcolor = white, shape = ellipse];
+28.27 [style = filled, label = "IOException exceptIO <53>", fillcolor = white, shape = diamond];
+28.28 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <54>", fillcolor = white, shape = ellipse];
+28.29 [style = filled, label = "{
+try {
+if (trioPrehensiveness != null) {
+trioPrehensiveness.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (refulge_tapmost != null) {
+refulge_tapmost.close();
+}
+}catch (IOException exceptIO) 
+} <55...70>", fillcolor = deeppink, shape = ellipse];
+28.0 -> 28.1 [style = solid, label=""];
+28.1 -> 28.2 [style = solid, label="true"];
+28.1 -> 28.15 [style = solid, label="false"];
+28.2 -> 28.3 [style = solid, label=""];
+28.3 -> 28.4 [style = solid, label=""];
+28.4 -> 28.5 [style = solid, label=""];
+28.5 -> 28.6 [style = solid, label=""];
+28.6 -> 28.7 [style = solid, label=""];
+28.7 -> 28.8 [style = solid, label=""];
+28.8 -> 28.9 [style = solid, label=""];
+28.8 -> 28.11 [style = solid, label=""];
+28.9 -> 28.10 [style = solid, label="true"];
+28.10 -> 28.11 [style = solid, label=""];
+28.11 -> 28.12 [style = solid, label=""];
+28.11 -> 28.14 [style = solid, label=""];
+28.12 -> 28.13 [style = solid, label="true"];
+28.13 -> 28.14 [style = solid, label=""];
+28.15 -> 28.16 [style = solid, label=""];
+28.16 -> 28.17 [style = solid, label=""];
+28.17 -> 28.18 [style = solid, label=""];
+28.18 -> 28.19 [style = solid, label=""];
+28.19 -> 28.20 [style = solid, label=""];
+28.20 -> 28.21 [style = solid, label=""];
+28.21 -> 28.22 [style = solid, label=""];
+28.21 -> 28.24 [style = solid, label=""];
+28.22 -> 28.23 [style = solid, label="true"];
+28.23 -> 28.24 [style = solid, label=""];
+28.24 -> 28.25 [style = solid, label="true"];
+28.24 -> 28.26 [style = solid, label="false"];
+28.25 -> 28.27 [style = solid, label=""];
+28.25 -> 28.29 [style = solid, label=""];
+28.26 -> 28.27 [style = solid, label=""];
+28.26 -> 28.29 [style = solid, label=""];
+28.27 -> 28.28 [style = solid, label="true"];
+28.28 -> 28.29 [style = solid, label=""];
+}
+subgraph cluster29 {
+label = "public void handleSubOption() throws Throwable  <2...36>";
+29.0 [style = filled, label = "public void handleSubOption() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+29.1 [style = filled, label = "IO.STATIC_FINAL_FIVE == 5 <3>", fillcolor = white, shape = diamond];
+29.2 [style = filled, label = "BufferedReader chemosmotic_lover = null; <4>", fillcolor = white, shape = ellipse];
+29.3 [style = filled, label = "InputStreamReader overtimberedUnshadowed = null; <5>", fillcolor = white, shape = ellipse];
+29.4 [style = filled, label = "overtimberedUnshadowed = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+29.5 [style = filled, label = "chemosmotic_lover = new BufferedReader(overtimberedUnshadowed); <8>", fillcolor = white, shape = ellipse];
+29.6 [style = filled, label = "float neurobiotactic_unmusked = 0; <9>", fillcolor = white, shape = ellipse];
+29.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+29.8 [style = filled, label = "neurobiotactic_unmusked = Float.parseFloat(chemosmotic_lover.readLine()); <12>", fillcolor = white, shape = ellipse];
+29.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+29.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+29.11 [style = filled, label = "IO.writeLine(\"\" + (int)neurobiotactic_unmusked); <16>", fillcolor = white, shape = ellipse];
+29.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+29.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+29.14 [style = filled, label = "{
+try {
+if (chemosmotic_lover != null) {
+chemosmotic_lover.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (overtimberedUnshadowed != null) {
+overtimberedUnshadowed.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+29.0 -> 29.1 [style = solid, label=""];
+29.1 -> 29.2 [style = solid, label="true"];
+29.2 -> 29.3 [style = solid, label=""];
+29.3 -> 29.4 [style = solid, label=""];
+29.4 -> 29.5 [style = solid, label=""];
+29.5 -> 29.6 [style = solid, label=""];
+29.6 -> 29.7 [style = solid, label=""];
+29.7 -> 29.8 [style = solid, label=""];
+29.8 -> 29.9 [style = solid, label=""];
+29.8 -> 29.11 [style = solid, label=""];
+29.9 -> 29.10 [style = solid, label="true"];
+29.10 -> 29.11 [style = solid, label=""];
+29.11 -> 29.12 [style = solid, label=""];
+29.11 -> 29.14 [style = solid, label=""];
+29.12 -> 29.13 [style = solid, label="true"];
+29.13 -> 29.14 [style = solid, label=""];
+}
+subgraph cluster30 {
+label = "public void unfrankableStanchless() throws Throwable  <2...36>";
+30.0 [style = filled, label = "public void unfrankableStanchless() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+30.1 [style = filled, label = "IO.staticFive == 5 <3>", fillcolor = white, shape = diamond];
+30.2 [style = filled, label = "BufferedReader handhold_granatum = null; <4>", fillcolor = white, shape = ellipse];
+30.3 [style = filled, label = "InputStreamReader pulmotracheary_justiceship = null; <5>", fillcolor = white, shape = ellipse];
+30.4 [style = filled, label = "pulmotracheary_justiceship = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+30.5 [style = filled, label = "handhold_granatum = new BufferedReader(pulmotracheary_justiceship); <8>", fillcolor = white, shape = ellipse];
+30.6 [style = filled, label = "float galea_expedientist = 0; <9>", fillcolor = white, shape = ellipse];
+30.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+30.8 [style = filled, label = "galea_expedientist = Float.parseFloat(handhold_granatum.readLine()); <12>", fillcolor = white, shape = ellipse];
+30.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+30.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+30.11 [style = filled, label = "IO.writeLine(\"\" + (int)galea_expedientist); <16>", fillcolor = white, shape = ellipse];
+30.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+30.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+30.14 [style = filled, label = "{
+try {
+if (handhold_granatum != null) {
+handhold_granatum.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (pulmotracheary_justiceship != null) {
+pulmotracheary_justiceship.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+30.0 -> 30.1 [style = solid, label=""];
+30.1 -> 30.2 [style = solid, label="true"];
+30.2 -> 30.3 [style = solid, label=""];
+30.3 -> 30.4 [style = solid, label=""];
+30.4 -> 30.5 [style = solid, label=""];
+30.5 -> 30.6 [style = solid, label=""];
+30.6 -> 30.7 [style = solid, label=""];
+30.7 -> 30.8 [style = solid, label=""];
+30.8 -> 30.9 [style = solid, label=""];
+30.8 -> 30.11 [style = solid, label=""];
+30.9 -> 30.10 [style = solid, label="true"];
+30.10 -> 30.11 [style = solid, label=""];
+30.11 -> 30.12 [style = solid, label=""];
+30.11 -> 30.14 [style = solid, label=""];
+30.12 -> 30.13 [style = solid, label="true"];
+30.13 -> 30.14 [style = solid, label=""];
+}
+subgraph cluster31 {
+label = "public void stickablePolyactine() throws Throwable  <2...41>";
+31.0 [style = filled, label = "public void stickablePolyactine() throws Throwable  <2...41>", fillcolor = aquamarine, shape = ellipse];
+31.1 [style = filled, label = "7 <3>", fillcolor = white, shape = diamond];
+31.2 [style = filled, label = "BufferedReader listener = null; <5>", fillcolor = white, shape = ellipse];
+31.3 [style = filled, label = "InputStreamReader tmpShardsMap = null; <6>", fillcolor = white, shape = ellipse];
+31.4 [style = filled, label = "tmpShardsMap = new InputStreamReader(System.in,\"UTF-8\"); <8>", fillcolor = white, shape = ellipse];
+31.5 [style = filled, label = "listener = new BufferedReader(tmpShardsMap); <9>", fillcolor = white, shape = ellipse];
+31.6 [style = filled, label = "float impubic_romanhood = 0; <10>", fillcolor = white, shape = ellipse];
+31.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <11>", fillcolor = white, shape = ellipse];
+31.8 [style = filled, label = "impubic_romanhood = Float.parseFloat(listener.readLine()); <13>", fillcolor = white, shape = ellipse];
+31.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <14>", fillcolor = white, shape = diamond];
+31.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <15>", fillcolor = white, shape = ellipse];
+31.11 [style = filled, label = "IO.writeLine(\"\" + (int)impubic_romanhood); <17>", fillcolor = white, shape = ellipse];
+31.12 [style = filled, label = "IOException exceptIO <18>", fillcolor = white, shape = diamond];
+31.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <19>", fillcolor = white, shape = ellipse];
+31.14 [style = filled, label = "{
+try {
+if (listener != null) {
+listener.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (tmpShardsMap != null) {
+tmpShardsMap.close();
+}
+}catch (IOException exceptIO) 
+} <20...35>", fillcolor = white, shape = ellipse];
+31.15 [style = filled, label = "IO.writeLine(\"Benign, fixed string\"); <38>", fillcolor = white, shape = ellipse];
+31.0 -> 31.1 [style = solid, label=""];
+31.1 -> 31.2 [style = solid, label="true"];
+31.1 -> 31.15 [style = solid, label="true"];
+31.2 -> 31.3 [style = solid, label=""];
+31.3 -> 31.4 [style = solid, label=""];
+31.4 -> 31.5 [style = solid, label=""];
+31.5 -> 31.6 [style = solid, label=""];
+31.6 -> 31.7 [style = solid, label=""];
+31.7 -> 31.8 [style = solid, label=""];
+31.8 -> 31.9 [style = solid, label=""];
+31.8 -> 31.11 [style = solid, label=""];
+31.9 -> 31.10 [style = solid, label="true"];
+31.10 -> 31.11 [style = solid, label=""];
+31.11 -> 31.12 [style = solid, label=""];
+31.11 -> 31.14 [style = solid, label=""];
+31.12 -> 31.13 [style = solid, label="true"];
+31.13 -> 31.14 [style = solid, label=""];
+}
+subgraph cluster32 {
+label = "public void proritualPyrolatry() throws Throwable  <2...37>";
+32.0 [style = filled, label = "public void proritualPyrolatry() throws Throwable  <2...37>", fillcolor = aquamarine, shape = ellipse];
+32.1 [style = filled, label = "true <3>", fillcolor = white, shape = diamond];
+32.2 [style = filled, label = "BufferedReader pentasepalous_subincident = null; <4>", fillcolor = white, shape = ellipse];
+32.3 [style = filled, label = "InputStreamReader protozoologist_exululate = null; <5>", fillcolor = white, shape = ellipse];
+32.4 [style = filled, label = "protozoologist_exululate = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+32.5 [style = filled, label = "pentasepalous_subincident = new BufferedReader(protozoologist_exululate); <8>", fillcolor = white, shape = ellipse];
+32.6 [style = filled, label = "float bibliolatry_trophonema = 0; <9>", fillcolor = white, shape = ellipse];
+32.7 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+32.8 [style = filled, label = "bibliolatry_trophonema = Float.parseFloat(pentasepalous_subincident.readLine()); <12>", fillcolor = white, shape = ellipse];
+32.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+32.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+32.11 [style = filled, label = "IO.writeLine(\"\" + (int)bibliolatry_trophonema); <16>", fillcolor = white, shape = ellipse];
+32.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+32.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+32.14 [style = filled, label = "{
+try {
+if (pentasepalous_subincident != null) {
+pentasepalous_subincident.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (protozoologist_exululate != null) {
+protozoologist_exululate.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = white, shape = ellipse];
+32.0 -> 32.1 [style = solid, label=""];
+32.1 -> 32.2 [style = solid, label="true"];
+32.2 -> 32.3 [style = solid, label=""];
+32.3 -> 32.4 [style = solid, label=""];
+32.4 -> 32.5 [style = solid, label=""];
+32.5 -> 32.6 [style = solid, label=""];
+32.6 -> 32.7 [style = solid, label=""];
+32.7 -> 32.8 [style = solid, label=""];
+32.8 -> 32.9 [style = solid, label=""];
+32.8 -> 32.11 [style = solid, label=""];
+32.9 -> 32.10 [style = solid, label="true"];
+32.10 -> 32.11 [style = solid, label=""];
+32.11 -> 32.12 [style = solid, label=""];
+32.11 -> 32.14 [style = solid, label=""];
+32.12 -> 32.13 [style = solid, label="true"];
+32.13 -> 32.14 [style = solid, label=""];
+}
+subgraph cluster33 {
+label = "public void fireIterEvents() throws Throwable  <2...36>";
+33.0 [style = filled, label = "public void fireIterEvents() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+33.1 [style = filled, label = "int unextendednessOticodinia = 0 <3>", fillcolor = white, shape = ellipse];
+33.2 [style = filled, label = "unextendednessOticodinia < 1 <3>", fillcolor = deeppink, shape = diamond];
+33.3 [style = filled, label = "unextendednessOticodinia++ <3>", fillcolor = white, shape = ellipse];
+33.4 [style = filled, label = "BufferedReader alveus_reshut = null; <4>", fillcolor = white, shape = ellipse];
+33.5 [style = filled, label = "InputStreamReader dyarchicSalema = null; <5>", fillcolor = white, shape = ellipse];
+33.6 [style = filled, label = "dyarchicSalema = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+33.7 [style = filled, label = "alveus_reshut = new BufferedReader(dyarchicSalema); <8>", fillcolor = white, shape = ellipse];
+33.8 [style = filled, label = "float viscerateNonhazardous = 0; <9>", fillcolor = white, shape = ellipse];
+33.9 [style = filled, label = "IO.writeString(\"Enter float number (1e20f): \"); <10>", fillcolor = white, shape = ellipse];
+33.10 [style = filled, label = "viscerateNonhazardous = Float.parseFloat(alveus_reshut.readLine()); <12>", fillcolor = white, shape = ellipse];
+33.11 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+33.12 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+33.13 [style = filled, label = "IO.writeLine(\"\" + (int)viscerateNonhazardous); <16>", fillcolor = white, shape = ellipse];
+33.14 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+33.15 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+33.16 [style = filled, label = "{
+try {
+if (alveus_reshut != null) {
+alveus_reshut.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (dyarchicSalema != null) {
+dyarchicSalema.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = white, shape = ellipse];
+33.0 -> 33.1 [style = solid, label=""];
+33.1 -> 33.2 [style = solid, label=""];
+33.2 -> 33.4 [style = solid, label="true"];
+33.3 -> 33.2 [style = solid, label=""];
+33.4 -> 33.5 [style = solid, label=""];
+33.5 -> 33.6 [style = solid, label=""];
+33.6 -> 33.7 [style = solid, label=""];
+33.7 -> 33.8 [style = solid, label=""];
+33.8 -> 33.9 [style = solid, label=""];
+33.9 -> 33.10 [style = solid, label=""];
+33.10 -> 33.11 [style = solid, label=""];
+33.10 -> 33.13 [style = solid, label=""];
+33.11 -> 33.12 [style = solid, label="true"];
+33.12 -> 33.13 [style = solid, label=""];
+33.13 -> 33.14 [style = solid, label=""];
+33.13 -> 33.16 [style = solid, label=""];
+33.14 -> 33.15 [style = solid, label="true"];
+33.15 -> 33.16 [style = solid, label=""];
+33.16 -> 33.3 [style = solid, label=""];
+}
+subgraph cluster34 {
+label = "public void doStop() throws Throwable  <2...34>";
+34.0 [style = filled, label = "public void doStop() throws Throwable  <2...34>", fillcolor = aquamarine, shape = ellipse];
+34.1 [style = filled, label = "BufferedReader pearly_roentgenoscope = null; <3>", fillcolor = white, shape = ellipse];
+34.2 [style = filled, label = "InputStreamReader therapeutics_sextuplet = null; <4>", fillcolor = white, shape = ellipse];
+34.3 [style = filled, label = "therapeutics_sextuplet = new InputStreamReader(System.in,\"UTF-8\"); <6>", fillcolor = white, shape = ellipse];
+34.4 [style = filled, label = "pearly_roentgenoscope = new BufferedReader(therapeutics_sextuplet); <7>", fillcolor = white, shape = ellipse];
+34.5 [style = filled, label = "float malapertlyKnuckling = 0; <8>", fillcolor = white, shape = ellipse];
+34.6 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <9>", fillcolor = white, shape = ellipse];
+34.7 [style = filled, label = "malapertlyKnuckling = Float.parseFloat(pearly_roentgenoscope.readLine()); <11>", fillcolor = white, shape = ellipse];
+34.8 [style = filled, label = "NumberFormatException exceptionNumberFormat <12>", fillcolor = white, shape = diamond];
+34.9 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <13>", fillcolor = white, shape = ellipse];
+34.10 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(malapertlyKnuckling))); <15>", fillcolor = white, shape = ellipse];
+34.11 [style = filled, label = "IOException exceptIO <16>", fillcolor = white, shape = diamond];
+34.12 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <17>", fillcolor = white, shape = ellipse];
+34.13 [style = filled, label = "{
+try {
+if (pearly_roentgenoscope != null) {
+pearly_roentgenoscope.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (therapeutics_sextuplet != null) {
+therapeutics_sextuplet.close();
+}
+}catch (IOException exceptIO) 
+} <18...33>", fillcolor = deeppink, shape = ellipse];
+34.0 -> 34.1 [style = solid, label=""];
+34.1 -> 34.2 [style = solid, label=""];
+34.2 -> 34.3 [style = solid, label=""];
+34.3 -> 34.4 [style = solid, label=""];
+34.4 -> 34.5 [style = solid, label=""];
+34.5 -> 34.6 [style = solid, label=""];
+34.6 -> 34.7 [style = solid, label=""];
+34.7 -> 34.8 [style = solid, label=""];
+34.7 -> 34.10 [style = solid, label=""];
+34.8 -> 34.9 [style = solid, label="true"];
+34.9 -> 34.10 [style = solid, label=""];
+34.10 -> 34.11 [style = solid, label=""];
+34.10 -> 34.13 [style = solid, label=""];
+34.11 -> 34.12 [style = solid, label="true"];
+34.12 -> 34.13 [style = solid, label=""];
+}
+subgraph cluster35 {
+label = "public void fetchRandomAbility() throws Throwable  <2...36>";
+35.0 [style = filled, label = "public void fetchRandomAbility() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+35.1 [style = filled, label = "true <3>", fillcolor = white, shape = diamond];
+35.2 [style = filled, label = "BufferedReader rattener_depancreatize = null; <4>", fillcolor = white, shape = ellipse];
+35.3 [style = filled, label = "InputStreamReader noncretaceous_arenoid = null; <5>", fillcolor = white, shape = ellipse];
+35.4 [style = filled, label = "noncretaceous_arenoid = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+35.5 [style = filled, label = "rattener_depancreatize = new BufferedReader(noncretaceous_arenoid); <8>", fillcolor = white, shape = ellipse];
+35.6 [style = filled, label = "float kreutzer_turriferous = 0; <9>", fillcolor = white, shape = ellipse];
+35.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+35.8 [style = filled, label = "kreutzer_turriferous = Float.parseFloat(rattener_depancreatize.readLine()); <12>", fillcolor = white, shape = ellipse];
+35.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+35.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+35.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(kreutzer_turriferous))); <16>", fillcolor = white, shape = ellipse];
+35.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+35.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+35.14 [style = filled, label = "{
+try {
+if (rattener_depancreatize != null) {
+rattener_depancreatize.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (noncretaceous_arenoid != null) {
+noncretaceous_arenoid.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+35.0 -> 35.1 [style = solid, label=""];
+35.1 -> 35.2 [style = solid, label="true"];
+35.2 -> 35.3 [style = solid, label=""];
+35.3 -> 35.4 [style = solid, label=""];
+35.4 -> 35.5 [style = solid, label=""];
+35.5 -> 35.6 [style = solid, label=""];
+35.6 -> 35.7 [style = solid, label=""];
+35.7 -> 35.8 [style = solid, label=""];
+35.8 -> 35.9 [style = solid, label=""];
+35.8 -> 35.11 [style = solid, label=""];
+35.9 -> 35.10 [style = solid, label="true"];
+35.10 -> 35.11 [style = solid, label=""];
+35.11 -> 35.12 [style = solid, label=""];
+35.11 -> 35.14 [style = solid, label=""];
+35.12 -> 35.13 [style = solid, label="true"];
+35.13 -> 35.14 [style = solid, label=""];
+}
+subgraph cluster36 {
+label = "public void isLockedUpWriting() throws Throwable  <2...36>";
+36.0 [style = filled, label = "public void isLockedUpWriting() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+36.1 [style = filled, label = "5 == 5 <3>", fillcolor = white, shape = diamond];
+36.2 [style = filled, label = "BufferedReader wrawl_apoturmeric = null; <4>", fillcolor = white, shape = ellipse];
+36.3 [style = filled, label = "InputStreamReader photonastic_creeperless = null; <5>", fillcolor = white, shape = ellipse];
+36.4 [style = filled, label = "photonastic_creeperless = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+36.5 [style = filled, label = "wrawl_apoturmeric = new BufferedReader(photonastic_creeperless); <8>", fillcolor = white, shape = ellipse];
+36.6 [style = filled, label = "float enchytraeidae_alhambra = 0; <9>", fillcolor = white, shape = ellipse];
+36.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+36.8 [style = filled, label = "enchytraeidae_alhambra = Float.parseFloat(wrawl_apoturmeric.readLine()); <12>", fillcolor = white, shape = ellipse];
+36.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+36.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+36.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(enchytraeidae_alhambra))); <16>", fillcolor = white, shape = ellipse];
+36.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+36.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+36.14 [style = filled, label = "{
+try {
+if (wrawl_apoturmeric != null) {
+wrawl_apoturmeric.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (photonastic_creeperless != null) {
+photonastic_creeperless.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+36.0 -> 36.1 [style = solid, label=""];
+36.1 -> 36.2 [style = solid, label="true"];
+36.2 -> 36.3 [style = solid, label=""];
+36.3 -> 36.4 [style = solid, label=""];
+36.4 -> 36.5 [style = solid, label=""];
+36.5 -> 36.6 [style = solid, label=""];
+36.6 -> 36.7 [style = solid, label=""];
+36.7 -> 36.8 [style = solid, label=""];
+36.8 -> 36.9 [style = solid, label=""];
+36.8 -> 36.11 [style = solid, label=""];
+36.9 -> 36.10 [style = solid, label="true"];
+36.10 -> 36.11 [style = solid, label=""];
+36.11 -> 36.12 [style = solid, label=""];
+36.11 -> 36.14 [style = solid, label=""];
+36.12 -> 36.13 [style = solid, label="true"];
+36.13 -> 36.14 [style = solid, label=""];
+}
+subgraph cluster37 {
+label = "public void getCount() throws Throwable  <2...36>";
+37.0 [style = filled, label = "public void getCount() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+37.1 [style = filled, label = "PRIVATE_STATIC_FINAL_TRUE <3>", fillcolor = white, shape = diamond];
+37.2 [style = filled, label = "BufferedReader sponsorship_quilled = null; <4>", fillcolor = white, shape = ellipse];
+37.3 [style = filled, label = "InputStreamReader jactancy_soiesette = null; <5>", fillcolor = white, shape = ellipse];
+37.4 [style = filled, label = "jactancy_soiesette = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+37.5 [style = filled, label = "sponsorship_quilled = new BufferedReader(jactancy_soiesette); <8>", fillcolor = white, shape = ellipse];
+37.6 [style = filled, label = "float phytographer_demibarrel = 0; <9>", fillcolor = white, shape = ellipse];
+37.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+37.8 [style = filled, label = "phytographer_demibarrel = Float.parseFloat(sponsorship_quilled.readLine()); <12>", fillcolor = white, shape = ellipse];
+37.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+37.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+37.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(phytographer_demibarrel))); <16>", fillcolor = white, shape = ellipse];
+37.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+37.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+37.14 [style = filled, label = "{
+try {
+if (sponsorship_quilled != null) {
+sponsorship_quilled.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (jactancy_soiesette != null) {
+jactancy_soiesette.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+37.0 -> 37.1 [style = solid, label=""];
+37.1 -> 37.2 [style = solid, label="true"];
+37.2 -> 37.3 [style = solid, label=""];
+37.3 -> 37.4 [style = solid, label=""];
+37.4 -> 37.5 [style = solid, label=""];
+37.5 -> 37.6 [style = solid, label=""];
+37.6 -> 37.7 [style = solid, label=""];
+37.7 -> 37.8 [style = solid, label=""];
+37.8 -> 37.9 [style = solid, label=""];
+37.8 -> 37.11 [style = solid, label=""];
+37.9 -> 37.10 [style = solid, label="true"];
+37.10 -> 37.11 [style = solid, label=""];
+37.11 -> 37.12 [style = solid, label=""];
+37.11 -> 37.14 [style = solid, label=""];
+37.12 -> 37.13 [style = solid, label="true"];
+37.13 -> 37.14 [style = solid, label=""];
+}
+subgraph cluster38 {
+label = "public void pronelyAnta() throws Throwable  <2...36>";
+38.0 [style = filled, label = "public void pronelyAnta() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+38.1 [style = filled, label = "privateTrue <3>", fillcolor = white, shape = diamond];
+38.2 [style = filled, label = "BufferedReader inductorPlatinate = null; <4>", fillcolor = white, shape = ellipse];
+38.3 [style = filled, label = "InputStreamReader decap_propliopithecus = null; <5>", fillcolor = white, shape = ellipse];
+38.4 [style = filled, label = "decap_propliopithecus = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+38.5 [style = filled, label = "inductorPlatinate = new BufferedReader(decap_propliopithecus); <8>", fillcolor = white, shape = ellipse];
+38.6 [style = filled, label = "float hysterical_frab = 0; <9>", fillcolor = white, shape = ellipse];
+38.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+38.8 [style = filled, label = "hysterical_frab = Float.parseFloat(inductorPlatinate.readLine()); <12>", fillcolor = white, shape = ellipse];
+38.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+38.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+38.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(hysterical_frab))); <16>", fillcolor = white, shape = ellipse];
+38.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+38.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+38.14 [style = filled, label = "{
+try {
+if (inductorPlatinate != null) {
+inductorPlatinate.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (decap_propliopithecus != null) {
+decap_propliopithecus.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+38.0 -> 38.1 [style = solid, label=""];
+38.1 -> 38.2 [style = solid, label="true"];
+38.2 -> 38.3 [style = solid, label=""];
+38.3 -> 38.4 [style = solid, label=""];
+38.4 -> 38.5 [style = solid, label=""];
+38.5 -> 38.6 [style = solid, label=""];
+38.6 -> 38.7 [style = solid, label=""];
+38.7 -> 38.8 [style = solid, label=""];
+38.8 -> 38.9 [style = solid, label=""];
+38.8 -> 38.11 [style = solid, label=""];
+38.9 -> 38.10 [style = solid, label="true"];
+38.10 -> 38.11 [style = solid, label=""];
+38.11 -> 38.12 [style = solid, label=""];
+38.11 -> 38.14 [style = solid, label=""];
+38.12 -> 38.13 [style = solid, label="true"];
+38.13 -> 38.14 [style = solid, label=""];
+}
+subgraph cluster39 {
+label = "public void archentericCollin() throws Throwable  <2...36>";
+39.0 [style = filled, label = "public void archentericCollin() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+39.1 [style = filled, label = "PRIVATE_STATIC_FINAL_FIVE == 5 <3>", fillcolor = white, shape = diamond];
+39.2 [style = filled, label = "BufferedReader directional_hydrodynamic = null; <4>", fillcolor = white, shape = ellipse];
+39.3 [style = filled, label = "InputStreamReader carucage_plessimetric = null; <5>", fillcolor = white, shape = ellipse];
+39.4 [style = filled, label = "carucage_plessimetric = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+39.5 [style = filled, label = "directional_hydrodynamic = new BufferedReader(carucage_plessimetric); <8>", fillcolor = white, shape = ellipse];
+39.6 [style = filled, label = "float putrilaginously_pythiaceae = 0; <9>", fillcolor = white, shape = ellipse];
+39.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+39.8 [style = filled, label = "putrilaginously_pythiaceae = Float.parseFloat(directional_hydrodynamic.readLine()); <12>", fillcolor = white, shape = ellipse];
+39.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+39.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+39.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(putrilaginously_pythiaceae))); <16>", fillcolor = white, shape = ellipse];
+39.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+39.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+39.14 [style = filled, label = "{
+try {
+if (directional_hydrodynamic != null) {
+directional_hydrodynamic.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (carucage_plessimetric != null) {
+carucage_plessimetric.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+39.0 -> 39.1 [style = solid, label=""];
+39.1 -> 39.2 [style = solid, label="true"];
+39.2 -> 39.3 [style = solid, label=""];
+39.3 -> 39.4 [style = solid, label=""];
+39.4 -> 39.5 [style = solid, label=""];
+39.5 -> 39.6 [style = solid, label=""];
+39.6 -> 39.7 [style = solid, label=""];
+39.7 -> 39.8 [style = solid, label=""];
+39.8 -> 39.9 [style = solid, label=""];
+39.8 -> 39.11 [style = solid, label=""];
+39.9 -> 39.10 [style = solid, label="true"];
+39.10 -> 39.11 [style = solid, label=""];
+39.11 -> 39.12 [style = solid, label=""];
+39.11 -> 39.14 [style = solid, label=""];
+39.12 -> 39.13 [style = solid, label="true"];
+39.13 -> 39.14 [style = solid, label=""];
+}
+subgraph cluster40 {
+label = "public void write() throws Throwable  <2...36>";
+40.0 [style = filled, label = "public void write() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+40.1 [style = filled, label = "privateFive == 5 <3>", fillcolor = white, shape = diamond];
+40.2 [style = filled, label = "BufferedReader horoptery_winepot = null; <4>", fillcolor = white, shape = ellipse];
+40.3 [style = filled, label = "InputStreamReader coinmakingTwinberry = null; <5>", fillcolor = white, shape = ellipse];
+40.4 [style = filled, label = "coinmakingTwinberry = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+40.5 [style = filled, label = "horoptery_winepot = new BufferedReader(coinmakingTwinberry); <8>", fillcolor = white, shape = ellipse];
+40.6 [style = filled, label = "float pistoleMimpei = 0; <9>", fillcolor = white, shape = ellipse];
+40.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+40.8 [style = filled, label = "pistoleMimpei = Float.parseFloat(horoptery_winepot.readLine()); <12>", fillcolor = white, shape = ellipse];
+40.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+40.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+40.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(pistoleMimpei))); <16>", fillcolor = white, shape = ellipse];
+40.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+40.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+40.14 [style = filled, label = "{
+try {
+if (horoptery_winepot != null) {
+horoptery_winepot.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (coinmakingTwinberry != null) {
+coinmakingTwinberry.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+40.0 -> 40.1 [style = solid, label=""];
+40.1 -> 40.2 [style = solid, label="true"];
+40.2 -> 40.3 [style = solid, label=""];
+40.3 -> 40.4 [style = solid, label=""];
+40.4 -> 40.5 [style = solid, label=""];
+40.5 -> 40.6 [style = solid, label=""];
+40.6 -> 40.7 [style = solid, label=""];
+40.7 -> 40.8 [style = solid, label=""];
+40.8 -> 40.9 [style = solid, label=""];
+40.8 -> 40.11 [style = solid, label=""];
+40.9 -> 40.10 [style = solid, label="true"];
+40.10 -> 40.11 [style = solid, label=""];
+40.11 -> 40.12 [style = solid, label=""];
+40.11 -> 40.14 [style = solid, label=""];
+40.12 -> 40.13 [style = solid, label="true"];
+40.13 -> 40.14 [style = solid, label=""];
+}
+subgraph cluster41 {
+label = "public void fileNameFromGeneration() throws Throwable  <2...36>";
+41.0 [style = filled, label = "public void fileNameFromGeneration() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+41.1 [style = filled, label = "privateReturnsTrue() <3>", fillcolor = white, shape = diamond];
+41.2 [style = filled, label = "BufferedReader dermomycosis_amphithecial = null; <4>", fillcolor = white, shape = ellipse];
+41.3 [style = filled, label = "InputStreamReader rutty_divisionist = null; <5>", fillcolor = white, shape = ellipse];
+41.4 [style = filled, label = "rutty_divisionist = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+41.5 [style = filled, label = "dermomycosis_amphithecial = new BufferedReader(rutty_divisionist); <8>", fillcolor = white, shape = ellipse];
+41.6 [style = filled, label = "float gheber_ethmosphenoidal = 0; <9>", fillcolor = white, shape = ellipse];
+41.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+41.8 [style = filled, label = "gheber_ethmosphenoidal = Float.parseFloat(dermomycosis_amphithecial.readLine()); <12>", fillcolor = white, shape = ellipse];
+41.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+41.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+41.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(gheber_ethmosphenoidal))); <16>", fillcolor = white, shape = ellipse];
+41.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+41.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+41.14 [style = filled, label = "{
+try {
+if (dermomycosis_amphithecial != null) {
+dermomycosis_amphithecial.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (rutty_divisionist != null) {
+rutty_divisionist.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+41.0 -> 41.1 [style = solid, label=""];
+41.1 -> 41.2 [style = solid, label="true"];
+41.2 -> 41.3 [style = solid, label=""];
+41.3 -> 41.4 [style = solid, label=""];
+41.4 -> 41.5 [style = solid, label=""];
+41.5 -> 41.6 [style = solid, label=""];
+41.6 -> 41.7 [style = solid, label=""];
+41.7 -> 41.8 [style = solid, label=""];
+41.8 -> 41.9 [style = solid, label=""];
+41.8 -> 41.11 [style = solid, label=""];
+41.9 -> 41.10 [style = solid, label="true"];
+41.10 -> 41.11 [style = solid, label=""];
+41.11 -> 41.12 [style = solid, label=""];
+41.11 -> 41.14 [style = solid, label=""];
+41.12 -> 41.13 [style = solid, label="true"];
+41.13 -> 41.14 [style = solid, label=""];
+}
+subgraph cluster42 {
+label = "public void reacquireCogitativity() throws Throwable  <2...36>";
+42.0 [style = filled, label = "public void reacquireCogitativity() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+42.1 [style = filled, label = "IO.STATIC_FINAL_TRUE <3>", fillcolor = white, shape = diamond];
+42.2 [style = filled, label = "BufferedReader perithece_inquinate = null; <4>", fillcolor = white, shape = ellipse];
+42.3 [style = filled, label = "InputStreamReader iliopsoatic_untransfusible = null; <5>", fillcolor = white, shape = ellipse];
+42.4 [style = filled, label = "iliopsoatic_untransfusible = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+42.5 [style = filled, label = "perithece_inquinate = new BufferedReader(iliopsoatic_untransfusible); <8>", fillcolor = white, shape = ellipse];
+42.6 [style = filled, label = "float catoptriteClathraria = 0; <9>", fillcolor = white, shape = ellipse];
+42.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+42.8 [style = filled, label = "catoptriteClathraria = Float.parseFloat(perithece_inquinate.readLine()); <12>", fillcolor = white, shape = ellipse];
+42.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+42.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+42.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(catoptriteClathraria))); <16>", fillcolor = white, shape = ellipse];
+42.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+42.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+42.14 [style = filled, label = "{
+try {
+if (perithece_inquinate != null) {
+perithece_inquinate.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (iliopsoatic_untransfusible != null) {
+iliopsoatic_untransfusible.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+42.0 -> 42.1 [style = solid, label=""];
+42.1 -> 42.2 [style = solid, label="true"];
+42.2 -> 42.3 [style = solid, label=""];
+42.3 -> 42.4 [style = solid, label=""];
+42.4 -> 42.5 [style = solid, label=""];
+42.5 -> 42.6 [style = solid, label=""];
+42.6 -> 42.7 [style = solid, label=""];
+42.7 -> 42.8 [style = solid, label=""];
+42.8 -> 42.9 [style = solid, label=""];
+42.8 -> 42.11 [style = solid, label=""];
+42.9 -> 42.10 [style = solid, label="true"];
+42.10 -> 42.11 [style = solid, label=""];
+42.11 -> 42.12 [style = solid, label=""];
+42.11 -> 42.14 [style = solid, label=""];
+42.12 -> 42.13 [style = solid, label="true"];
+42.13 -> 42.14 [style = solid, label=""];
+}
+subgraph cluster43 {
+label = "public void zzUnpackAttribute() throws Throwable  <2...36>";
+43.0 [style = filled, label = "public void zzUnpackAttribute() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+43.1 [style = filled, label = "IO.staticTrue <3>", fillcolor = white, shape = diamond];
+43.2 [style = filled, label = "BufferedReader perorativeAcanthia = null; <4>", fillcolor = white, shape = ellipse];
+43.3 [style = filled, label = "InputStreamReader isOk = null; <5>", fillcolor = white, shape = ellipse];
+43.4 [style = filled, label = "isOk = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+43.5 [style = filled, label = "perorativeAcanthia = new BufferedReader(isOk); <8>", fillcolor = white, shape = ellipse];
+43.6 [style = filled, label = "float azumbre_brandy = 0; <9>", fillcolor = white, shape = ellipse];
+43.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+43.8 [style = filled, label = "azumbre_brandy = Float.parseFloat(perorativeAcanthia.readLine()); <12>", fillcolor = white, shape = ellipse];
+43.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+43.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+43.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(azumbre_brandy))); <16>", fillcolor = white, shape = ellipse];
+43.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+43.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+43.14 [style = filled, label = "{
+try {
+if (perorativeAcanthia != null) {
+perorativeAcanthia.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (isOk != null) {
+isOk.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+43.0 -> 43.1 [style = solid, label=""];
+43.1 -> 43.2 [style = solid, label="true"];
+43.2 -> 43.3 [style = solid, label=""];
+43.3 -> 43.4 [style = solid, label=""];
+43.4 -> 43.5 [style = solid, label=""];
+43.5 -> 43.6 [style = solid, label=""];
+43.6 -> 43.7 [style = solid, label=""];
+43.7 -> 43.8 [style = solid, label=""];
+43.8 -> 43.9 [style = solid, label=""];
+43.8 -> 43.11 [style = solid, label=""];
+43.9 -> 43.10 [style = solid, label="true"];
+43.10 -> 43.11 [style = solid, label=""];
+43.11 -> 43.12 [style = solid, label=""];
+43.11 -> 43.14 [style = solid, label=""];
+43.12 -> 43.13 [style = solid, label="true"];
+43.13 -> 43.14 [style = solid, label=""];
+}
+subgraph cluster44 {
+label = "public void isthmianGelder() throws Throwable  <2...36>";
+44.0 [style = filled, label = "public void isthmianGelder() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+44.1 [style = filled, label = "IO.staticReturnsTrue() <3>", fillcolor = white, shape = diamond];
+44.2 [style = filled, label = "BufferedReader subzone_roric = null; <4>", fillcolor = white, shape = ellipse];
+44.3 [style = filled, label = "InputStreamReader anthocliniumSkittler = null; <5>", fillcolor = white, shape = ellipse];
+44.4 [style = filled, label = "anthocliniumSkittler = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+44.5 [style = filled, label = "subzone_roric = new BufferedReader(anthocliniumSkittler); <8>", fillcolor = white, shape = ellipse];
+44.6 [style = filled, label = "float machinization_jebus = 0; <9>", fillcolor = white, shape = ellipse];
+44.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+44.8 [style = filled, label = "machinization_jebus = Float.parseFloat(subzone_roric.readLine()); <12>", fillcolor = white, shape = ellipse];
+44.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+44.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+44.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(machinization_jebus))); <16>", fillcolor = white, shape = ellipse];
+44.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+44.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+44.14 [style = filled, label = "{
+try {
+if (subzone_roric != null) {
+subzone_roric.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (anthocliniumSkittler != null) {
+anthocliniumSkittler.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+44.0 -> 44.1 [style = solid, label=""];
+44.1 -> 44.2 [style = solid, label="true"];
+44.2 -> 44.3 [style = solid, label=""];
+44.3 -> 44.4 [style = solid, label=""];
+44.4 -> 44.5 [style = solid, label=""];
+44.5 -> 44.6 [style = solid, label=""];
+44.6 -> 44.7 [style = solid, label=""];
+44.7 -> 44.8 [style = solid, label=""];
+44.8 -> 44.9 [style = solid, label=""];
+44.8 -> 44.11 [style = solid, label=""];
+44.9 -> 44.10 [style = solid, label="true"];
+44.10 -> 44.11 [style = solid, label=""];
+44.11 -> 44.12 [style = solid, label=""];
+44.11 -> 44.14 [style = solid, label=""];
+44.12 -> 44.13 [style = solid, label="true"];
+44.13 -> 44.14 [style = solid, label=""];
+}
+subgraph cluster45 {
+label = "public void citizendomArati() throws Throwable  <2...72>";
+45.0 [style = filled, label = "public void citizendomArati() throws Throwable  <2...72>", fillcolor = aquamarine, shape = ellipse];
+45.1 [style = filled, label = "IO.staticReturnsTrueOrFalse() <3>", fillcolor = white, shape = diamond];
+45.2 [style = filled, label = "BufferedReader hostAddressX = null; <4>", fillcolor = white, shape = ellipse];
+45.3 [style = filled, label = "InputStreamReader laserpitium_homotonic = null; <5>", fillcolor = white, shape = ellipse];
+45.4 [style = filled, label = "laserpitium_homotonic = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+45.5 [style = filled, label = "hostAddressX = new BufferedReader(laserpitium_homotonic); <8>", fillcolor = white, shape = ellipse];
+45.6 [style = filled, label = "float nextTime = 0; <9>", fillcolor = white, shape = ellipse];
+45.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+45.8 [style = filled, label = "nextTime = Float.parseFloat(hostAddressX.readLine()); <12>", fillcolor = white, shape = ellipse];
+45.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+45.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+45.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(nextTime))); <16>", fillcolor = white, shape = ellipse];
+45.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+45.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+45.14 [style = filled, label = "{
+try {
+if (hostAddressX != null) {
+hostAddressX.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (laserpitium_homotonic != null) {
+laserpitium_homotonic.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+45.15 [style = filled, label = "BufferedReader hostAddressX = null; <36>", fillcolor = white, shape = ellipse];
+45.16 [style = filled, label = "InputStreamReader laserpitium_homotonic = null; <37>", fillcolor = white, shape = ellipse];
+45.17 [style = filled, label = "laserpitium_homotonic = new InputStreamReader(System.in,\"UTF-8\"); <39>", fillcolor = white, shape = ellipse];
+45.18 [style = filled, label = "hostAddressX = new BufferedReader(laserpitium_homotonic); <40>", fillcolor = white, shape = ellipse];
+45.19 [style = filled, label = "IO.writeString(\"Enter float number: \"); <41>", fillcolor = white, shape = ellipse];
+45.20 [style = filled, label = "float nextTime = 0; <42>", fillcolor = white, shape = ellipse];
+45.21 [style = filled, label = "nextTime = Float.parseFloat(hostAddressX.readLine()); <44>", fillcolor = white, shape = ellipse];
+45.22 [style = filled, label = "NumberFormatException exceptionNumberFormat <45>", fillcolor = white, shape = diamond];
+45.23 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <46>", fillcolor = white, shape = ellipse];
+45.24 [style = filled, label = "nextTime < 0 <48>", fillcolor = white, shape = diamond];
+45.25 [style = filled, label = "IO.writeLine(\"Negative Number\"); <49>", fillcolor = white, shape = ellipse];
+45.26 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(nextTime))); <51>", fillcolor = white, shape = ellipse];
+45.27 [style = filled, label = "IOException exceptIO <53>", fillcolor = white, shape = diamond];
+45.28 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <54>", fillcolor = white, shape = ellipse];
+45.29 [style = filled, label = "{
+try {
+if (hostAddressX != null) {
+hostAddressX.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (laserpitium_homotonic != null) {
+laserpitium_homotonic.close();
+}
+}catch (IOException exceptIO) 
+} <55...70>", fillcolor = deeppink, shape = ellipse];
+45.0 -> 45.1 [style = solid, label=""];
+45.1 -> 45.2 [style = solid, label="true"];
+45.1 -> 45.15 [style = solid, label="false"];
+45.2 -> 45.3 [style = solid, label=""];
+45.3 -> 45.4 [style = solid, label=""];
+45.4 -> 45.5 [style = solid, label=""];
+45.5 -> 45.6 [style = solid, label=""];
+45.6 -> 45.7 [style = solid, label=""];
+45.7 -> 45.8 [style = solid, label=""];
+45.8 -> 45.9 [style = solid, label=""];
+45.8 -> 45.11 [style = solid, label=""];
+45.9 -> 45.10 [style = solid, label="true"];
+45.10 -> 45.11 [style = solid, label=""];
+45.11 -> 45.12 [style = solid, label=""];
+45.11 -> 45.14 [style = solid, label=""];
+45.12 -> 45.13 [style = solid, label="true"];
+45.13 -> 45.14 [style = solid, label=""];
+45.15 -> 45.16 [style = solid, label=""];
+45.16 -> 45.17 [style = solid, label=""];
+45.17 -> 45.18 [style = solid, label=""];
+45.18 -> 45.19 [style = solid, label=""];
+45.19 -> 45.20 [style = solid, label=""];
+45.20 -> 45.21 [style = solid, label=""];
+45.21 -> 45.22 [style = solid, label=""];
+45.21 -> 45.24 [style = solid, label=""];
+45.22 -> 45.23 [style = solid, label="true"];
+45.23 -> 45.24 [style = solid, label=""];
+45.24 -> 45.25 [style = solid, label="true"];
+45.24 -> 45.26 [style = solid, label="false"];
+45.25 -> 45.27 [style = solid, label=""];
+45.25 -> 45.29 [style = solid, label=""];
+45.26 -> 45.27 [style = solid, label=""];
+45.26 -> 45.29 [style = solid, label=""];
+45.27 -> 45.28 [style = solid, label="true"];
+45.28 -> 45.29 [style = solid, label=""];
+}
+subgraph cluster46 {
+label = "public void prognosticallyRansel() throws Throwable  <2...36>";
+46.0 [style = filled, label = "public void prognosticallyRansel() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+46.1 [style = filled, label = "IO.STATIC_FINAL_FIVE == 5 <3>", fillcolor = white, shape = diamond];
+46.2 [style = filled, label = "BufferedReader resnub_graminological = null; <4>", fillcolor = white, shape = ellipse];
+46.3 [style = filled, label = "InputStreamReader tautomery_undespised = null; <5>", fillcolor = white, shape = ellipse];
+46.4 [style = filled, label = "tautomery_undespised = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+46.5 [style = filled, label = "resnub_graminological = new BufferedReader(tautomery_undespised); <8>", fillcolor = white, shape = ellipse];
+46.6 [style = filled, label = "float foreschool_misventure = 0; <9>", fillcolor = white, shape = ellipse];
+46.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+46.8 [style = filled, label = "foreschool_misventure = Float.parseFloat(resnub_graminological.readLine()); <12>", fillcolor = white, shape = ellipse];
+46.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+46.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+46.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(foreschool_misventure))); <16>", fillcolor = white, shape = ellipse];
+46.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+46.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+46.14 [style = filled, label = "{
+try {
+if (resnub_graminological != null) {
+resnub_graminological.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (tautomery_undespised != null) {
+tautomery_undespised.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+46.0 -> 46.1 [style = solid, label=""];
+46.1 -> 46.2 [style = solid, label="true"];
+46.2 -> 46.3 [style = solid, label=""];
+46.3 -> 46.4 [style = solid, label=""];
+46.4 -> 46.5 [style = solid, label=""];
+46.5 -> 46.6 [style = solid, label=""];
+46.6 -> 46.7 [style = solid, label=""];
+46.7 -> 46.8 [style = solid, label=""];
+46.8 -> 46.9 [style = solid, label=""];
+46.8 -> 46.11 [style = solid, label=""];
+46.9 -> 46.10 [style = solid, label="true"];
+46.10 -> 46.11 [style = solid, label=""];
+46.11 -> 46.12 [style = solid, label=""];
+46.11 -> 46.14 [style = solid, label=""];
+46.12 -> 46.13 [style = solid, label="true"];
+46.13 -> 46.14 [style = solid, label=""];
+}
+subgraph cluster47 {
+label = "public void cloneFix() throws Throwable  <2...36>";
+47.0 [style = filled, label = "public void cloneFix() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+47.1 [style = filled, label = "IO.staticFive == 5 <3>", fillcolor = white, shape = diamond];
+47.2 [style = filled, label = "BufferedReader protoleukocyteDishwatery = null; <4>", fillcolor = white, shape = ellipse];
+47.3 [style = filled, label = "InputStreamReader foundOne = null; <5>", fillcolor = white, shape = ellipse];
+47.4 [style = filled, label = "foundOne = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+47.5 [style = filled, label = "protoleukocyteDishwatery = new BufferedReader(foundOne); <8>", fillcolor = white, shape = ellipse];
+47.6 [style = filled, label = "float intersessionAnimalization = 0; <9>", fillcolor = white, shape = ellipse];
+47.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+47.8 [style = filled, label = "intersessionAnimalization = Float.parseFloat(protoleukocyteDishwatery.readLine()); <12>", fillcolor = white, shape = ellipse];
+47.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+47.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+47.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(intersessionAnimalization))); <16>", fillcolor = white, shape = ellipse];
+47.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+47.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+47.14 [style = filled, label = "{
+try {
+if (protoleukocyteDishwatery != null) {
+protoleukocyteDishwatery.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (foundOne != null) {
+foundOne.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = deeppink, shape = ellipse];
+47.0 -> 47.1 [style = solid, label=""];
+47.1 -> 47.2 [style = solid, label="true"];
+47.2 -> 47.3 [style = solid, label=""];
+47.3 -> 47.4 [style = solid, label=""];
+47.4 -> 47.5 [style = solid, label=""];
+47.5 -> 47.6 [style = solid, label=""];
+47.6 -> 47.7 [style = solid, label=""];
+47.7 -> 47.8 [style = solid, label=""];
+47.8 -> 47.9 [style = solid, label=""];
+47.8 -> 47.11 [style = solid, label=""];
+47.9 -> 47.10 [style = solid, label="true"];
+47.10 -> 47.11 [style = solid, label=""];
+47.11 -> 47.12 [style = solid, label=""];
+47.11 -> 47.14 [style = solid, label=""];
+47.12 -> 47.13 [style = solid, label="true"];
+47.13 -> 47.14 [style = solid, label=""];
+}
+subgraph cluster48 {
+label = "public void numAllAbilities() throws Throwable  <2...41>";
+48.0 [style = filled, label = "public void numAllAbilities() throws Throwable  <2...41>", fillcolor = aquamarine, shape = ellipse];
+48.1 [style = filled, label = "7 <3>", fillcolor = white, shape = diamond];
+48.2 [style = filled, label = "BufferedReader benzalanilineDesmoscolex = null; <5>", fillcolor = white, shape = ellipse];
+48.3 [style = filled, label = "InputStreamReader underpassion_gluneamie = null; <6>", fillcolor = white, shape = ellipse];
+48.4 [style = filled, label = "underpassion_gluneamie = new InputStreamReader(System.in,\"UTF-8\"); <8>", fillcolor = white, shape = ellipse];
+48.5 [style = filled, label = "benzalanilineDesmoscolex = new BufferedReader(underpassion_gluneamie); <9>", fillcolor = white, shape = ellipse];
+48.6 [style = filled, label = "float ugaronoIntine = 0; <10>", fillcolor = white, shape = ellipse];
+48.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <11>", fillcolor = white, shape = ellipse];
+48.8 [style = filled, label = "ugaronoIntine = Float.parseFloat(benzalanilineDesmoscolex.readLine()); <13>", fillcolor = white, shape = ellipse];
+48.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <14>", fillcolor = white, shape = diamond];
+48.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <15>", fillcolor = white, shape = ellipse];
+48.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(ugaronoIntine))); <17>", fillcolor = white, shape = ellipse];
+48.12 [style = filled, label = "IOException exceptIO <18>", fillcolor = white, shape = diamond];
+48.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <19>", fillcolor = white, shape = ellipse];
+48.14 [style = filled, label = "{
+try {
+if (benzalanilineDesmoscolex != null) {
+benzalanilineDesmoscolex.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (underpassion_gluneamie != null) {
+underpassion_gluneamie.close();
+}
+}catch (IOException exceptIO) 
+} <20...35>", fillcolor = white, shape = ellipse];
+48.15 [style = filled, label = "IO.writeLine(\"Benign, fixed string\"); <38>", fillcolor = white, shape = ellipse];
+48.0 -> 48.1 [style = solid, label=""];
+48.1 -> 48.2 [style = solid, label="true"];
+48.1 -> 48.15 [style = solid, label="true"];
+48.2 -> 48.3 [style = solid, label=""];
+48.3 -> 48.4 [style = solid, label=""];
+48.4 -> 48.5 [style = solid, label=""];
+48.5 -> 48.6 [style = solid, label=""];
+48.6 -> 48.7 [style = solid, label=""];
+48.7 -> 48.8 [style = solid, label=""];
+48.8 -> 48.9 [style = solid, label=""];
+48.8 -> 48.11 [style = solid, label=""];
+48.9 -> 48.10 [style = solid, label="true"];
+48.10 -> 48.11 [style = solid, label=""];
+48.11 -> 48.12 [style = solid, label=""];
+48.11 -> 48.14 [style = solid, label=""];
+48.12 -> 48.13 [style = solid, label="true"];
+48.13 -> 48.14 [style = solid, label=""];
+}
+subgraph cluster49 {
+label = "public void refineryScrupleless() throws Throwable  <2...37>";
+49.0 [style = filled, label = "public void refineryScrupleless() throws Throwable  <2...37>", fillcolor = aquamarine, shape = ellipse];
+49.1 [style = filled, label = "true <3>", fillcolor = white, shape = diamond];
+49.2 [style = filled, label = "BufferedReader reverb_autotomy = null; <4>", fillcolor = white, shape = ellipse];
+49.3 [style = filled, label = "InputStreamReader fastuous_piedmont = null; <5>", fillcolor = white, shape = ellipse];
+49.4 [style = filled, label = "fastuous_piedmont = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+49.5 [style = filled, label = "reverb_autotomy = new BufferedReader(fastuous_piedmont); <8>", fillcolor = white, shape = ellipse];
+49.6 [style = filled, label = "float splayer_galvanotropic = 0; <9>", fillcolor = white, shape = ellipse];
+49.7 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+49.8 [style = filled, label = "splayer_galvanotropic = Float.parseFloat(reverb_autotomy.readLine()); <12>", fillcolor = white, shape = ellipse];
+49.9 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+49.10 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+49.11 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(splayer_galvanotropic))); <16>", fillcolor = white, shape = ellipse];
+49.12 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+49.13 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+49.14 [style = filled, label = "{
+try {
+if (reverb_autotomy != null) {
+reverb_autotomy.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (fastuous_piedmont != null) {
+fastuous_piedmont.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = white, shape = ellipse];
+49.0 -> 49.1 [style = solid, label=""];
+49.1 -> 49.2 [style = solid, label="true"];
+49.2 -> 49.3 [style = solid, label=""];
+49.3 -> 49.4 [style = solid, label=""];
+49.4 -> 49.5 [style = solid, label=""];
+49.5 -> 49.6 [style = solid, label=""];
+49.6 -> 49.7 [style = solid, label=""];
+49.7 -> 49.8 [style = solid, label=""];
+49.8 -> 49.9 [style = solid, label=""];
+49.8 -> 49.11 [style = solid, label=""];
+49.9 -> 49.10 [style = solid, label="true"];
+49.10 -> 49.11 [style = solid, label=""];
+49.11 -> 49.12 [style = solid, label=""];
+49.11 -> 49.14 [style = solid, label=""];
+49.12 -> 49.13 [style = solid, label="true"];
+49.13 -> 49.14 [style = solid, label=""];
+}
+subgraph cluster50 {
+label = "public void intermeddlingArchidiaconal() throws Throwable  <2...36>";
+50.0 [style = filled, label = "public void intermeddlingArchidiaconal() throws Throwable  <2...36>", fillcolor = aquamarine, shape = ellipse];
+50.1 [style = filled, label = "int critic_untrammeledness = 0 <3>", fillcolor = white, shape = ellipse];
+50.2 [style = filled, label = "critic_untrammeledness < 1 <3>", fillcolor = deeppink, shape = diamond];
+50.3 [style = filled, label = "critic_untrammeledness++ <3>", fillcolor = white, shape = ellipse];
+50.4 [style = filled, label = "BufferedReader bombycineMetamerous = null; <4>", fillcolor = white, shape = ellipse];
+50.5 [style = filled, label = "InputStreamReader costalDemos = null; <5>", fillcolor = white, shape = ellipse];
+50.6 [style = filled, label = "costalDemos = new InputStreamReader(System.in,\"UTF-8\"); <7>", fillcolor = white, shape = ellipse];
+50.7 [style = filled, label = "bombycineMetamerous = new BufferedReader(costalDemos); <8>", fillcolor = white, shape = ellipse];
+50.8 [style = filled, label = "float impeacher_nonapplication = 0; <9>", fillcolor = white, shape = ellipse];
+50.9 [style = filled, label = "IO.writeString(\"Enter float number (-2.0): \"); <10>", fillcolor = white, shape = ellipse];
+50.10 [style = filled, label = "impeacher_nonapplication = Float.parseFloat(bombycineMetamerous.readLine()); <12>", fillcolor = white, shape = ellipse];
+50.11 [style = filled, label = "NumberFormatException exceptionNumberFormat <13>", fillcolor = white, shape = diamond];
+50.12 [style = filled, label = "IO.writeLine(\"Error parsing number\"); <14>", fillcolor = white, shape = ellipse];
+50.13 [style = filled, label = "IO.writeLine(\"\" + (int)(Math.sqrt(impeacher_nonapplication))); <16>", fillcolor = white, shape = ellipse];
+50.14 [style = filled, label = "IOException exceptIO <17>", fillcolor = white, shape = diamond];
+50.15 [style = filled, label = "IO.logger.log(Level.WARNING,\"Error with stream reading\",exceptIO); <18>", fillcolor = white, shape = ellipse];
+50.16 [style = filled, label = "{
+try {
+if (bombycineMetamerous != null) {
+bombycineMetamerous.close();
+}
+}catch (IOException exceptIO) 
+try {
+if (costalDemos != null) {
+costalDemos.close();
+}
+}catch (IOException exceptIO) 
+} <19...34>", fillcolor = white, shape = ellipse];
+50.0 -> 50.1 [style = solid, label=""];
+50.1 -> 50.2 [style = solid, label=""];
+50.2 -> 50.4 [style = solid, label="true"];
+50.3 -> 50.2 [style = solid, label=""];
+50.4 -> 50.5 [style = solid, label=""];
+50.5 -> 50.6 [style = solid, label=""];
+50.6 -> 50.7 [style = solid, label=""];
+50.7 -> 50.8 [style = solid, label=""];
+50.8 -> 50.9 [style = solid, label=""];
+50.9 -> 50.10 [style = solid, label=""];
+50.10 -> 50.11 [style = solid, label=""];
+50.10 -> 50.13 [style = solid, label=""];
+50.11 -> 50.12 [style = solid, label="true"];
+50.12 -> 50.13 [style = solid, label=""];
+50.13 -> 50.14 [style = solid, label=""];
+50.13 -> 50.16 [style = solid, label=""];
+50.14 -> 50.15 [style = solid, label="true"];
+50.15 -> 50.16 [style = solid, label=""];
+50.16 -> 50.3 [style = solid, label=""];
+}
+}
