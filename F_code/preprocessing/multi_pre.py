@@ -161,4 +161,4 @@ if __name__ == '__main__':
     #preprocess('/Users/zhouqixin/Downloads/', "bert-base-nli-mean-tokens")
     preprocess("E:\\project\\multi_final", "bert-base-nli-mean-tokens")
     #preprocess("C:\\Users\\ruoya\\Desktop\\tt", "bert-base-nli-mean-tokens")
-    #get_data_from_file('/Users/zhouqixin/Downloads/外包/美国老哥/0125/ex p1', "bert-base-nli-mean-tokens", "IntegerOverflow")
+
