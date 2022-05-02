@@ -1,0 +1,1 @@
+In this preprocessingb step, getting text label list which is CWE-** files as a positive and NonVulnerable as a negative. and then generate mapping of text label and onehot label, then create or load record.json(for incremental preprocessing) 
