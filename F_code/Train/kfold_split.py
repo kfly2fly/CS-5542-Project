@@ -32,8 +32,6 @@ def create_kfold(path, k):
     test_index = [(i * 10 + random.randint(0, 9)) for i in range(0, int(len(adj_files) / 10))]
     for a in test_index:
         train_index.remove(a)
-    #首先得到train的数量，取其中10%为val
-    #之前train test是在整个划分，这次是在train的数量上划分，分完后要得到其在全局的index，所以还要去train里面索引出来
     val_index = [train_index[i * 10 + random.randint(0, 9)] for i in range(0, int(len(train_index) / 10))]
     for a in val_index:
         train_index.remove(a)
